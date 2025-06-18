@@ -9,6 +9,7 @@ Fork [this repository](https://github.com/simamojtahedi/Academic-cv), modify the
 
 ## MY CV
 Here is my CV: [CV](https://achirarat-chot-cv.netlify.app/)
+using  the [netlify](https://app.netlify.com/projects/achirarat-chot-cv/configuration/general)
 
 
 ## Demo
