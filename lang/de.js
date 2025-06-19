@@ -1,18 +1,18 @@
-const faNavbarData = {
+const deNavbarData = {
   title: " Achirarat Chottianchaiwat ",
-  Home: "โฮมเพจ",
+  Home: "Startseite",
   publications: "publications",
   Education: "",
-  Research: "งานวิจัย",
-  Jobs: "ประวัติการทำงาน",
-  Contact: "ติดต่อ",
+  Research: "Forschung",
+  Jobs: "Erfahrung",
+  Contact: "Kontakt",
 };
 
 // ---------- Home page data
-const faHomePageData = {
-  name: " อชิระรัชช์ โชติเทียนชัยวัต ",
+const deHomePageData = {
+  name: " Startseite ",
   jobTitle: " Embedded-Software Engineer ",
-  home_title: "เกี่ยวกับฉัน",
+  home_title: "Über mich",
   home_content: `
   <div>
     <p> วิศวกรไฟฟ้า/ซอฟต์แวร์, ปริญญาโทสาขา Information and Communication Engineering และ 
@@ -71,7 +71,7 @@ const faHomePageData = {
 };
 
 // ---------- Publications page data
-const faPublicationsPageData = {
+const dePublicationsPageData = {
   type_one_title: "Journal Papers",
 
   type_one_items: [
@@ -155,7 +155,7 @@ const faPublicationsPageData = {
   ],
 };
 
-const faResearchPageData = {
+const deResearchPageData = {
   title: "งานวิจัยที่สนใจ",
   content: `
     <div class='research_content'>
@@ -165,7 +165,7 @@ const faResearchPageData = {
 };
 
 // ---------- Jobs page data
-const faJobsPageData = {
+const deJobsPageData = {
   title: "ประสบการณ์ทำงาน (กำลังแปลไทย นานหน่อย แต่น่าจะไม่เกิน 10 ปี)",
   items: [
     {
