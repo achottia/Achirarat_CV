@@ -202,21 +202,6 @@ $(document).ready(function () {
     publicationsData();
   }
 
-  // Education page data
-  function eduData() {
-    document.getElementById("page_title").innerText =
-      lang === "en" ? "Education" : "การศึกษา";
-
-    document.getElementById("education_title").innerHTML =
-      lang === "en" ? enEducationPageData.title : faEducationPageData.title;
-    document.getElementById("education_data").innerHTML =
-      lang === "en" ? enEducationPageData.content : faEducationPageData.content;
-  }
-
-  if (pathname === "/education") {
-    eduData();
-  }
-
   // Research page data
   function researchData() {
     document.getElementById("page_title").innerText =
@@ -282,7 +267,7 @@ $(document).ready(function () {
 
   // Contact page data
   const contact_data = {
-    contact_title: lang === "en" ? "Contact" : "Contact",
+    contact_title: lang === "en" ? "Contact" : "ข้อมูลส่วนตัว",
     contact_items: [
       {
         img: "../assets/images/icons/location.png",

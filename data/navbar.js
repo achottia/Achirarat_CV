@@ -20,11 +20,6 @@ $(document).ready(function () {
         url: "/publications.html",
       },
       {
-        active: navbarLinks.education ? true : false,
-        title: lang === "fa" ? faNavbarData.Education : enNavbarData.Education,
-        url: "/education.html",
-      },
-      {
         active: navbarLinks.research ? true : false,
         title: lang === "fa" ? faNavbarData.Research : enNavbarData.Research,
         url: "/research.html",

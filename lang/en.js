@@ -16,28 +16,57 @@ const enHomePageData = {
   home_title: "About me",
   home_content: `
   <div>
-    <p> Electrical/ Software Engineer holding an M.Sc. in Information and Communication Engineering 
+    <p> Electrical/ Software Engineer holding a M.Sc. in Information and Communication Engineering 
     and a B.Eng. in Industrial Electrical Engineering (Second-Class Honors), 
     with professional experience in automotive and rail signaling systems. <br>
     Currently transitioning into medical applications through specialization in 
     <b> Molecular Communication</b> and <b> Bio-Information</b>, aiming to develop innovative 
     healthcare solutions. Technical expertise includes embedded systems, signal 
-    processing, and programming in MATLAB, C, and Python, with a proven ability 
+    processing, convex optimization, and programming in MATLAB, C, and Python, with a proven ability 
     to translate theoretical concepts into practical engineering applications across 
     diverse industries.
     </p>
-    <h2 class='title'> Education </h2>
-    <ul>
-      <li> M.Sc. in Information and Communication Engineering <br>
-      <i> Technische Universität Darmstadt, Darmstadt, Hessen, Germany</i>  </li>
-      <li> B.Eng. in Industrial Electrical Engineering <br>
-      <i> Thammasat University, Patumtani, Thailand</i>  </li>
-    </ul>
-    <h2 class='title'> Human Languages (Mostly Fluent, Sometimes Confused) </h2>
-    Thai (Native), English (Fluent), German (Intermidiate), Japanese (Intermidiate)
+    
+  <h2 class='title'>Education</h2>
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li style="margin-bottom: 15px;">
+      <div style="display: flex; justify-content: space-between;">
+        <div>
+          <b>Technische Universität Darmstadt</b>, Darmstadt, Germany<br> 
+          <i>M.Sc. in Information and Communication Engineering</i>
+        </div>
+        <div style="text-align: right;">
+          <i>October 2021 - March 2025</i>
+        </div>
+      </div>
+    </li>
+    <li style="margin-bottom: 15px;">
+      <div style="display: flex; justify-content: space-between;">
+        <div>
+          <b>Thammasat University</b>, Pathum Thani, Thailand<br>
+          <i>B.Eng. in Industrial Electrical Engineering</i>
+        </div>
+        <div style="text-align: right;">
+          <i>May 2013 - May 2017</i>
+        </div>
+      </div>
+    </li>
+  </ul>
 
-    <h2 class='title'> Coding Languages (Mostly Copy-Paste with Confidence) </h2>
-    MATLAB, SIMULINK, C, C++, Python, SQL
+  <h2 class='title'>Human Languages (Mostly Fluent, Somtimes confused)</h2>
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li>Thai (Native)</li>
+    <li>English (Fluent)</li>
+    <li>German (Intermediate)</li>
+    <li>Japanese (Intermediate)</li>
+  </ul>
+  <h2 class='title'>Coding Languages (Copy and paste with confidence)</h2>
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li>MATLAB/ SIMULINK</li>
+    <li>C/ C++</li>
+    <li>Python</li>
+    <li>SQL</li>
+  </ul>
 
   </div>
   `,
