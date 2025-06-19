@@ -34,7 +34,7 @@ const enHomePageData = {
     <li style="margin-bottom: 15px;">
       <div style="display: flex; justify-content: space-between;">
         <div>
-          <b>Technische Universität Darmstadt</b>, Darmstadt, Germany<br> 
+          <b>Technische Universität Darmstadt</b>, Darmstadt, Hessen, Germany<br> 
           <i>M.Sc. in Information and Communication Engineering</i>
         </div>
         <div style="text-align: right;">
@@ -45,7 +45,7 @@ const enHomePageData = {
     <li style="margin-bottom: 15px;">
       <div style="display: flex; justify-content: space-between;">
         <div>
-          <b>Thammasat University</b>, Pathum Thani, Thailand<br>
+          <b>Thammasat University</b>, Patumthani, Thailand<br>
           <i>B.Eng. in Industrial Electrical Engineering</i>
         </div>
         <div style="text-align: right;">
