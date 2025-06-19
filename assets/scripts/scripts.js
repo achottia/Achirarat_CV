@@ -2,32 +2,54 @@ var lang = localStorage.getItem("lang");
 var pathname = window.location.pathname.replace(".html", "");
 
 $(document).ready(function () {
-  // ---------- Language Handler
-  if (!lang) {
-    localStorage.setItem("lang", "en");
-  }
+  // ---------- Language Settings ----------
+var lang = localStorage.getItem("lang");
+if (!lang) {
+  lang = "en";
+  localStorage.setItem("lang", lang);
+}
 
-  if (lang === "fa") {
-    document.getElementById("content_wrapper").classList.add("ltr_wrapper");
-    if (
-      document.getElementById("languageIcon") &&
-      document.getElementById("languageText")
-    ) {
-      document.getElementById("languageIcon").src =
-        "../assets/images/icons/en.png";
-      document.getElementById("languageText").innerText = "EN";
-    }
-  } else {
-    document.getElementById("content_wrapper").classList.add("ltr_wrapper");
-    if (
-      document.getElementById("languageIcon") &&
-      document.getElementById("languageText")
-    ) {
-      document.getElementById("languageIcon").src =
-        "../assets/images/icons/th.png";
-      document.getElementById("languageText").innerText = "TH";
-    }
-  }
+const langIconMap = {
+  en: { icon: "../assets/images/icons/en.png", label: "EN" },
+  th: { icon: "../assets/images/icons/th.png", label: "TH" },
+  jp: { icon: "../assets/images/icons/jp.png", label: "JP" },
+  de: { icon: "../assets/images/icons/de.png", label: "DE" },
+};
+
+// Apply direction and icon label
+document.getElementById("content_wrapper").classList.add("ltr_wrapper");
+
+if (document.getElementById("languageIcon") && document.getElementById("languageText")) {
+  const iconData = langIconMap[lang] || langIconMap["en"];
+  document.getElementById("languageIcon").src = iconData.icon;
+  document.getElementById("languageText").innerText = iconData.label;
+}
+
+// ---------- Language Switcher Icons ----------
+const langSwitcher = document.createElement("div");
+langSwitcher.id = "langSwitcher";
+langSwitcher.style.position = "absolute";
+langSwitcher.style.top = "10px";
+langSwitcher.style.right = "20px";
+langSwitcher.style.zIndex = "999";
+
+Object.entries(langIconMap).forEach(([lng, data]) => {
+  const img = document.createElement("img");
+  img.src = data.icon;
+  img.alt = data.label;
+  img.id = `lang_${lng}`;
+  img.title = data.label;
+  img.style.width = "24px";
+  img.style.cursor = "pointer";
+  img.style.marginRight = "5px";
+  img.addEventListener("click", () => {
+    localStorage.setItem("lang", lng);
+    location.reload(); // Refresh page to apply new language
+  });
+  langSwitcher.appendChild(img);
+});
+
+document.body.appendChild(langSwitcher);
 
   // Home page data
   const home_data = {

@@ -1,5 +1,5 @@
-const faNavbarData = {
-  title: " Achirarat Chottianchaiwat ",
+const jpNavbarData = {
+  title: " アチラーラット チョティアンチャイワット ",
   Home: "โฮมเพจ",
   publications: "publications",
   Education: "",
@@ -9,7 +9,7 @@ const faNavbarData = {
 };
 
 // ---------- Home page data
-const faHomePageData = {
+const jpHomePageData = {
   name: " อชิระรัชช์ โชติเทียนชัยวัต ",
   jobTitle: " Embedded-Software Engineer ",
   home_title: "เกี่ยวกับฉัน",
@@ -71,7 +71,7 @@ const faHomePageData = {
 };
 
 // ---------- Publications page data
-const faPublicationsPageData = {
+const jpPublicationsPageData = {
   type_one_title: "Journal Papers",
 
   type_one_items: [
@@ -155,7 +155,7 @@ const faPublicationsPageData = {
   ],
 };
 
-const faResearchPageData = {
+const jpResearchPageData = {
   title: "งานวิจัยที่สนใจ",
   content: `
     <div class='research_content'>
@@ -165,7 +165,7 @@ const faResearchPageData = {
 };
 
 // ---------- Jobs page data
-const faJobsPageData = {
+const jpJobsPageData = {
   title: "ประสบการณ์ทำงาน (กำลังแปลไทย นานหน่อย แต่น่าจะไม่เกิน 10 ปี)",
   items: [
     {
