@@ -173,6 +173,7 @@ const enResearchPageData = {
         frameworks to quantify and improve communication reliability in nanoscale environments 
         where traditional electromagnetic approaches are impractical. </p>
 
+
         <h2 class='title'> Master's Thesis </h2>
         <b>Optimization of Molecule Mixtures and Cross-Reactive Sensing Arrays in Molecular Communication</b>
         , <i> Supervised by </i> Bastian Heinlein, M.Sc., Prof. Dr.-Ing. Vahid Jamali  <br>

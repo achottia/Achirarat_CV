@@ -20,7 +20,7 @@ const faHomePageData = {
         มีประสบการณ์ทำงานด้าน ระบบสัญญาณรถไฟและยานยนต์ <br>
 
         ตอนนี้กำลังขยับไปสนุกกับวงการแพทย์ โดยเฉพาะด้าน Molecular Communication และ Bio-Information 
-        เพื่อพัฒนาโซลูชันด้านสุขภาพเจ๋งๆ ความสามารถหลักๆ รวมถึง embedded systems, signal 
+        เพื่อพัฒนาโซลูชันด้านการแพทย์เจ๋งๆ ความสามารถหลักๆ รวมถึง embedded systems, signal 
          processing, convex optimization และโปรแกรมมิ่งด้วย MATLAB, C, Python
         เชี่ยวชาญการนำทฤษฎีมาปรับใช้จริงในอุตสาหกรรมหลากหลาย
     </p>
@@ -42,7 +42,7 @@ const faHomePageData = {
       <div style="display: flex; justify-content: space-between;">
         <div>
           <b>มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต</b>, ปทุมธานี, ไทย<br>
-          <i>B.Eng. in Industrial Electrical Engineering</i>
+          <i>วศ.บ. (วิศวกรรมไฟฟ้าอุตสาหกรรม)</i>
         </div>
         <div style="text-align: right;">
           <i>พฤษภาคม 2013 - พฤษภาคม 2017</i>
@@ -54,11 +54,11 @@ const faHomePageData = {
   <h2 class='title'>ภาษาของมนุษย์ (แบบ สเนคๆ ฟิชๆ)</h2>
   <ul style="list-style-type: none; padding-left: 0;">
     <li>ไทย (ภาษาแม่)</li>
-    <li>อังกฤษ (เชียวชาญพิเศษ)</li>
+    <li>อังกฤษ (เชี่ยวชาญพิเศษ)</li>
     <li>เยอรมัน (สื่อสารทั่วไป)</li>
     <li>ญี่ปุ่น (สื่อสารทั่วไป)</li>
   </ul>
-  <h2 class='title'>ภาษาโค้ด (ส่วนใหญ่ ก้อปวางเอา)</h2>
+  <h2 class='title'>ภาษาโค้ด (ส่วนใหญ่ ก้อปวาง)</h2>
   <ul style="list-style-type: none; padding-left: 0;">
     <li>MATLAB/ SIMULINK</li>
     <li>C/ C++</li>
