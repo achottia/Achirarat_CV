@@ -19,7 +19,9 @@ const enHomePageData = {
     <p> Electrical/ Software Engineer holding a M.Sc. in Information and Communication Engineering 
     and a B.Eng. in Industrial Electrical Engineering (Second-Class Honors), 
     with professional experience in automotive and rail signaling systems. <br>
-    Currently transitioning into medical applications through specialization in 
+    Currently transitioning into communication systems such as <b>Information Theory</b> and 
+    <b>MIMO Communincation</b>. 
+    As well as medical applications through specialization in 
     <b> Molecular Communication</b> and <b> Bio-Information</b>, aiming to develop innovative 
     healthcare solutions. Technical expertise includes embedded systems, signal 
     processing, convex optimization, and programming in MATLAB, C, and Python, with a proven ability 
