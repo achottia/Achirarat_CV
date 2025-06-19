@@ -53,7 +53,7 @@ const enHomePageData = {
     </li>
   </ul>
 
-  <h2 class='title'>Human Languages (Mostly Fluent, Somtimes confused)</h2>
+  <h2 class='title'>Human Languages (Mostly Fluent, Sometimes confused)</h2>
   <ul style="list-style-type: none; padding-left: 0;">
     <li>Thai (Native)</li>
     <li>English (Fluent)</li>
