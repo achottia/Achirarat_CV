@@ -7,7 +7,9 @@ This template support the kinds of content that academics have: **publications**
 Fork [this repository](https://github.com/simamojtahedi/Academic-cv), modify the configuration and files, and have your own site for free by publishing this code on [GitHub pages](https://pages.github.com/) or any other domain.
 
 
-
+## MY CV
+Here is my CV: [CV](https://achirarat-chot-cv.netlify.app/)
+using  the [netlify](https://app.netlify.com/projects/achirarat-chot-cv/configuration/general)
 
 
 ## Demo
