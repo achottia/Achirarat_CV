@@ -25,9 +25,19 @@ $(document).ready(function () {
         url: "/research.html",
       },
       {
+        active: navbarLinks.project ? true : false,
+        title: lang === "fa" ? faNavbarData.Project : enNavbarData.Project,
+        url: "/projects.html",
+      },
+      {
         active: navbarLinks.jobs ? true : false,
         title: lang === "fa" ? faNavbarData.Jobs : enNavbarData.Jobs,
         url: "/jobs.html",
+      },
+      {
+        active: navbarLinks.hobby ? true : false,
+        title: lang === "fa" ? faNavbarData.Hobby : enNavbarData.Hobby,
+        url: "/hobbys.html",
       },
       {
         active: navbarLinks.contact ? true : false,

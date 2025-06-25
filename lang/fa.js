@@ -4,7 +4,9 @@ const faNavbarData = {
   publications: "publications",
   Education: "",
   Research: "งานวิจัย",
+  Project: "โปรเจค",
   Jobs: "ประวัติการทำงาน",
+  Hobby: "งานอดิเรก",
   Contact: "ติดต่อ",
 };
 
@@ -155,6 +157,7 @@ const faPublicationsPageData = {
   ],
 };
 
+// ---------- Research page data
 const faResearchPageData = {
   title: "งานวิจัยที่สนใจ",
   content: `
@@ -214,4 +217,32 @@ const faJobsPageData = {
         "Instructor for the software development, MATLAB library usability and software development process for newly graduated members"],
     },
   ],
+};
+
+// ---------- Hobby data
+const faHobbyPageData = {
+  title: "งานอดิเรก",
+  content: `
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1VBmZiomJYBizWITalLoaPgEg9kwB7T4&ehbc=2E312F" 
+    width="640" height="480"></iframe>
+  `,
+};
+
+// ---------- Project data
+const faProjectPageData = {
+  title: "โปรเจค",
+  content: `
+    <div class='Project_content'>
+        <p> My research focuses on enhancing the efficiency of Molecular Communication 
+        (MC) systems through rigorous analysis of Bit Error Rate (BER) in diffusion-based 
+        channels. The inherently stochastic nature of molecular diffusion presents 
+        significant challenges for reliable communication, particularly in analyzing 
+        and optimizing system performance. My primary objective is to develop comprehensive 
+        diffusion models that accurately characterize these stochastic processes, enabling 
+        the design of more efficient MC systems. Specifically, this work will establish theoretical 
+        frameworks to quantify and improve communication reliability in nanoscale environments 
+        where traditional electromagnetic approaches are impractical. </p>
+    </div>
+  `,
+
 };
