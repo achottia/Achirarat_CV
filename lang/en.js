@@ -5,7 +5,9 @@ const enNavbarData = {
   publications: "publications",
   Education: "Education",
   Research: "Research",
+  Project: "Project",
   Jobs: "Career Experience",
+  Hobby: "Hobby",
   Contact: "Contact",
 };
 
@@ -180,7 +182,7 @@ const enResearchPageData = {
 
         <h2 class='title'> Master's Thesis </h2>
         <b>Optimization of Molecule Mixtures and Cross-Reactive Sensing Arrays in Molecular Communication</b>
-        , <i> Supervised by </i> Bastian Heinlein, M.Sc., Prof. Dr.-Ing. Vahid Jamali  <br>
+        , <i> Supervised by </i> Bastian Heinlein, M.Sc. and Prof. Dr.-Ing. Vahid Jamali  <br>
         <br>
         <b>Abstract</b> : Molecular Communication (MC) is an emerging paradigm utilizing molecules as information carriers, with applications in healthcare, environmental monitoring, and biotechnology. 
 
@@ -260,4 +262,41 @@ const enJobsPageData = {
         "Instructor for the software development, MATLAB library usability and software development process for newly graduated members"],
     },
   ],
+};
+
+// ---------- Hobby data
+const enHobbyPageData = {
+  title: "Hobby",
+  content: `
+    <div class='research_content'>
+        <p> My research focuses on enhancing the efficiency of Molecular Communication 
+        (MC) systems through rigorous analysis of Bit Error Rate (BER) in diffusion-based 
+        channels. The inherently stochastic nature of molecular diffusion presents 
+        significant challenges for reliable communication, particularly in analyzing 
+        and optimizing system performance. My primary objective is to develop comprehensive 
+        diffusion models that accurately characterize these stochastic processes, enabling 
+        the design of more efficient MC systems. Specifically, this work will establish theoretical 
+        frameworks to quantify and improve communication reliability in nanoscale environments 
+        where traditional electromagnetic approaches are impractical. </p>
+    </div>
+  `,
+};
+
+// ---------- Project data
+const enProjectPageData = {
+  title: "Project",
+  content: `
+    <div class='research_content'>
+        <p> My research focuses on enhancing the efficiency of Molecular Communication 
+        (MC) systems through rigorous analysis of Bit Error Rate (BER) in diffusion-based 
+        channels. The inherently stochastic nature of molecular diffusion presents 
+        significant challenges for reliable communication, particularly in analyzing 
+        and optimizing system performance. My primary objective is to develop comprehensive 
+        diffusion models that accurately characterize these stochastic processes, enabling 
+        the design of more efficient MC systems. Specifically, this work will establish theoretical 
+        frameworks to quantify and improve communication reliability in nanoscale environments 
+        where traditional electromagnetic approaches are impractical. </p>
+    </div>
+  `,
+
 };

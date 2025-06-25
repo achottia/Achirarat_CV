@@ -147,7 +147,7 @@ $(document).ready(function () {
 
   function publicationsData() {
     document.getElementById("page_title").innerText =
-      lang === "en" ? "Publications" : "مقالات";
+      lang === "en" ? "Publications" : "Publications";
 
     document.getElementById("publications_type_one_title").innerHTML =
       lang === "en"
@@ -350,4 +350,36 @@ $(document).ready(function () {
   if (pathname === "/contact") {
     contactData();
   }
+
+  // Project page data
+  function projectData() {
+    document.getElementById("page_title").innerText =
+      lang === "en" ? "Project" : "Project";
+
+    document.getElementById("project_title").innerHTML =
+      lang === "en" ? enProjectPageData.title : faProjectPageData.title;
+    document.getElementById("project_data").innerHTML =
+      lang === "en" ? enProjectPageData.content : faProjectPageData.content;
+  }
+
+  if (pathname === "/project") {
+    projectData();
+  }
+
+  // Hobby page data
+  function hobbyData() {
+    document.getElementById("page_title").innerText =
+      lang === "en" ? "Hobby" : "Hobby";
+
+    document.getElementById("hobby_title").innerHTML =
+      lang === "en" ? enHobbyPageData.title : faHobbyPageData.title;
+    document.getElementById("hobby_data").innerHTML =
+      lang === "en" ? enHobbyPageData.content : faHobbyPageData.content;
+  }
+
+  if (pathname === "/hobby") {
+    hobbyData();
+  }
+
+
 });
