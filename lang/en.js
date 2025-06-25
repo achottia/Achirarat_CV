@@ -5,9 +5,9 @@ const enNavbarData = {
   publications: "publications",
   Education: "Education",
   Research: "Research",
-  Project: "Project",
+  Project: "Projects",
   Jobs: "Career Experience",
-  Hobby: "Hobby",
+  Hobby: "Hobbys",
   Contact: "Contact",
 };
 
@@ -266,17 +266,16 @@ const enJobsPageData = {
 const enHobbyPageData = {
   title: "Hobby",
   content: `
-    <div class='research_content'>
-        <p> My research focuses on enhancing the efficiency of Molecular Communication 
-        (MC) systems through rigorous analysis of Bit Error Rate (BER) in diffusion-based 
-        channels. The inherently stochastic nature of molecular diffusion presents 
-        significant challenges for reliable communication, particularly in analyzing 
-        and optimizing system performance. My primary objective is to develop comprehensive 
-        diffusion models that accurately characterize these stochastic processes, enabling 
-        the design of more efficient MC systems. Specifically, this work will establish theoretical 
-        frameworks to quantify and improve communication reliability in nanoscale environments 
-        where traditional electromagnetic approaches are impractical. </p>
-    </div>
+    <iframe 
+      width="690"
+      height="450"
+      frameborder="0"
+      scrolling="no"
+      marginheight="0"
+      marginwidth="0"
+      src="https://www.google.com/maps/d/u/0/embed?mid=1VBmZiomJYBizWITalLoaPgEg9kwB7T4&ehbc=2E312F" 
+    >
+    </iframe>
   `,
 };
 
@@ -284,7 +283,7 @@ const enHobbyPageData = {
 const enProjectPageData = {
   title: "Project",
   content: `
-    <div class='research_content'>
+    <div class='Project_content'>
         <p> My research focuses on enhancing the efficiency of Molecular Communication 
         (MC) systems through rigorous analysis of Bit Error Rate (BER) in diffusion-based 
         channels. The inherently stochastic nature of molecular diffusion presents 

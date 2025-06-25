@@ -1,18 +1,18 @@
 const faNavbarData = {
-  title: " Achirarat Chottianchaiwat ",
-  Home: "โฮมเพจ",
+  title: " アチラーラット チョティアンチャイワット ",
+  Home: "ホームページ",
   publications: "publications",
-  Education: "",
-  Research: "งานวิจัย",
-  Jobs: "ประวัติการทำงาน",
-  Contact: "ติดต่อ",
+  Education: "教育",
+  Research: "研究",
+  Jobs: "職務経歴 ",
+  Contact: "ご連絡",
 };
 
 // ---------- Home page data
 const faHomePageData = {
-  name: " อชิระรัชช์ โชติเทียนชัยวัต ",
-  jobTitle: " Embedded-Software Engineer ",
-  home_title: "เกี่ยวกับฉัน",
+  name: " アチラーラット チョティアンチャイワット ",
+  jobTitle: " ソフトウェアエンジニア ",
+  home_title: "私について",
   home_content: `
   <div>
     <p> วิศวกรไฟฟ้า/ซอฟต์แวร์, ปริญญาโทสาขา Information and Communication Engineering และ 
