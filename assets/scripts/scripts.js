@@ -362,7 +362,7 @@ $(document).ready(function () {
       lang === "en" ? enProjectPageData.content : faProjectPageData.content;
   }
 
-  if (pathname === "/project") {
+  if (pathname === "/projects") {
     projectData();
   }
 
@@ -377,7 +377,7 @@ $(document).ready(function () {
       lang === "en" ? enHobbyPageData.content : faHobbyPageData.content;
   }
 
-  if (pathname === "/hobby") {
+  if (pathname === "/hobbys") {
     hobbyData();
   }
 
