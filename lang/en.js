@@ -266,8 +266,10 @@ const enJobsPageData = {
 
 // ---------- Hobby data
 const enHobbyPageData = {
-  title: "Hobby",
+  title: "What I do in my free time?",
   content: `
+  <div class='hobby_content'>
+  <p> 
     <iframe 
       width="690"
       height="450"
@@ -278,6 +280,12 @@ const enHobbyPageData = {
       src="https://www.google.com/maps/d/u/0/embed?mid=1VBmZiomJYBizWITalLoaPgEg9kwB7T4&ehbc=2E312F" 
     >
     </iframe>
+  <p> 
+
+  <h2 class='title'> Gallery </h2>
+
+
+  </div>
   `,
 };
 
