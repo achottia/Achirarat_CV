@@ -70,6 +70,7 @@ const enHomePageData = {
     <li>C/ C++</li>
     <li>Python</li>
     <li>SQL</li>
+    <li> <u>Learning</u>: Node.Js, HTML by doing this CV</li>
   </ul>
 
   </div>

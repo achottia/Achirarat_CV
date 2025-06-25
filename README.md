@@ -1,5 +1,11 @@
 
-# Academic CV
+# MY RESUME
+Here is my CV: [CV](https://achirarat-chot-cv.netlify.app/)
+using  the [netlify](https://app.netlify.com/projects/achirarat-chot-cv/configuration/general)
+Based on the Academic CV from - [@simamojtahedi](https://github.com/simamojtahedi)
+Currently, trying to add more languages, hobbys and projects.
+
+## Academic CV
 
 Github Pages multi language template for academic personal websites which supports both RTL and LTR directions.
 
@@ -7,9 +13,6 @@ This template support the kinds of content that academics have: **publications**
 Fork [this repository](https://github.com/simamojtahedi/Academic-cv), modify the configuration and files, and have your own site for free by publishing this code on [GitHub pages](https://pages.github.com/) or any other domain.
 
 
-## MY CV
-Here is my CV: [CV](https://achirarat-chot-cv.netlify.app/)
-using  the [netlify](https://app.netlify.com/projects/achirarat-chot-cv/configuration/general)
 
 
 ## Demo
