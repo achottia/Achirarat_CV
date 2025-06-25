@@ -497,7 +497,48 @@
   #contact_data img {
     width: 30px;
   }
+  
+<!--
+/* Project page styles */
+#project_data p {
+  margin: 1rem 0;
+  text-align: justify;
 }
+
+#project_data h2 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#project_data img {
+  max-width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+/* Hobby page styles */
+#hobby_data p {
+  margin: 1rem 0;
+  text-align: justify;
+}
+
+#hobby_data h2 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#hobby_data img {
+  max-width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+}
+-->
 
 /* --------- Rtl styles --------- */
 
