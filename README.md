@@ -1,11 +1,11 @@
 
-## MY CV
+# MY RESUME
 Here is my CV: [CV](https://achirarat-chot-cv.netlify.app/)
 using  the [netlify](https://app.netlify.com/projects/achirarat-chot-cv/configuration/general)
 Based on the Academic CV from - [@simamojtahedi](https://github.com/simamojtahedi)
 Currently, trying to add more languages, hobbys and projects.
 
-# Academic CV
+## Academic CV
 
 Github Pages multi language template for academic personal websites which supports both RTL and LTR directions.
 
