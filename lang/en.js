@@ -367,7 +367,7 @@ const enHobbyPageData = {
   .img-gallery {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 10px; /* Adjust spacing between images */
+    gap: 5px; /* Adjust spacing between images */
   }
   
   .img-gallery img {
