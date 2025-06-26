@@ -540,6 +540,21 @@
 }
 -->
 
+.img-gallery {
+  column-count: 6;
+  column-gap: 0;
+}
+
+.img-gallery img {
+  width: 100%;
+  display: block;
+  margin-bottom: 0;
+  break-inside: avoid; /* Prevent images from breaking between columns */
+  object-fit: cover;
+}
+
+
+
 /* --------- Rtl styles --------- */
 
 /* Home page styles */
