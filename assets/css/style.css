@@ -543,6 +543,7 @@
 .img-gallery {
   column-count: 6;
   column-gap: 0;
+  row-gap: 0;
 }
 
 .img-gallery img {
