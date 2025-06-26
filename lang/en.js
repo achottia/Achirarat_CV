@@ -268,23 +268,114 @@ const enHobbyPageData = {
   title: "What I do in my free time?",
   content: `
   <div class='hobby_content'>
-  <p> 
-    <iframe 
-      width="690"
-      height="450"
-      frameborder="0"
-      scrolling="no"
-      marginheight="0"
-      marginwidth="0"
-      src="https://www.google.com/maps/d/u/0/embed?mid=1VBmZiomJYBizWITalLoaPgEg9kwB7T4&ehbc=2E312F" 
-    >
-    </iframe>
-  <p> 
 
-  <h2 class='title'> Gallery </h2>
-
-
+  During my time in Germany, I have developed a passion for exploring the beautiful landscapes and 
+  rich culture of the country. Visiting cities and towns like Heidelberg, Marburg, and Mainz has allowed me to immerse myself in the local history and architecture.
+  I particularly enjoy hiking in the Odenwald mountains, where I can appreciate the natural beauty of the region.
+  <br>
+  <br>
+  Let's see where I have been so far in Germany. (Able to change to Schloss/ othoer countries I have visted as well)
+    <!-- Google Maps Embed -->
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/d/u/0/embed?mid=1VBmZiomJYBizWITalLoaPgEg9kwB7T4&ehbc=2E312F"
+      width="100%"
+      height="600"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="My Travel Map"
+    ></iframe>
   </div>
+
+
+<div class="gallery">
+  <h2 class='title'>Gallery</h2>
+    During my free time, I enjoy exploring the world around me, whether it's hiking in the mountains, 
+    cycling through scenic routes, or simply enjoying a walk in the park. 
+    I love to capture these moments through photography, and you can find some of my 
+    favorite shots below.
+
+<div class="full-gallery">
+  <div class="img-gallery">
+    <img src="./files/images/IMG_1.png">
+    <img src="./files/images/IMG_2.png">
+    <img src="./files/images/IMG_3.png">
+    <img src="./files/images/IMG_4.png">
+    <img src="./files/images/IMG_5.png">
+    <img src="./files/images/IMG_6.png">
+    <img src="./files/images/IMG_7.png">
+    <img src="./files/images/IMG_8.png">
+    <img src="./files/images/IMG_9.png">
+    <img src="./files/images/IMG_10.png">
+    <img src="./files/images/IMG_11.png">
+    <img src="./files/images/IMG_12.png">
+    <img src="./files/images/IMG_13.png">
+    <img src="./files/images/IMG_14.png">
+    <img src="./files/images/IMG_15.png">
+    <img src="./files/images/IMG_16.png">
+    <img src="./files/images/IMG_17.png">
+    <img src="./files/images/IMG_18.png">
+    <img src="./files/images/IMG_19.png">
+    <img src="./files/images/IMG_20.png">
+    <img src="./files/images/IMG_21.png">
+    <img src="./files/images/IMG_22.png">
+    <img src="./files/images/IMG_23.png">
+    <img src="./files/images/IMG_24.png">
+    <img src="./files/images/IMG_25.png">
+    <img src="./files/images/IMG_26.png">
+    <img src="./files/images/IMG_27.png">
+    <img src="./files/images/IMG_28.png">
+    <img src="./files/images/IMG_29.png">
+    <img src="./files/images/IMG_30.png">
+    <img src="./files/images/IMG_31.png">
+    <img src="./files/images/IMG_32.png">
+    <img src="./files/images/IMG_33.png">
+    <img src="./files/images/IMG_34.png">
+    <img src="./files/images/IMG_35.png">
+    <img src="./files/images/IMG_36.png">
+    <img src="./files/images/IMG_37.png">
+    <img src="./files/images/IMG_38.png">
+    <img src="./files/images/IMG_39.png">
+    <img src="./files/images/IMG_40.png">
+    <img src="./files/images/IMG_41.png">
+    <img src="./files/images/IMG_42.png">
+    <img src="./files/images/IMG_43.png">
+    <img src="./files/images/IMG_44.png">
+    <img src="./files/images/IMG_45.png">
+    <img src="./files/images/IMG_46.png">
+    <img src="./files/images/IMG_47.png">
+    <img src="./files/images/IMG_48.png">
+    <img src="./files/images/IMG_49.png">
+    <img src="./files/images/IMG_50.png">
+    <img src="./files/images/IMG_51.png">
+    <img src="./files/images/IMG_52.png">
+    <img src="./files/images/IMG_53.png">
+    <img src="./files/images/IMG_54.png">
+    <img src="./files/images/IMG_55.png">
+    <img src="./files/images/IMG_56.png">
+    <img src="./files/images/IMG_57.png">
+    <img src="./files/images/IMG_58.png">
+    <img src="./files/images/IMG_59.png">
+    <img src="./files/images/IMG_60.png">
+  </div>
+</div>
+
+<style>
+  .img-gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px; /* Adjust spacing between images */
+  }
+  
+  .img-gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>
+</div>
   `,
 };
 
@@ -293,15 +384,18 @@ const enProjectPageData = {
   title: "Project",
   content: `
     <div class='Project_content'>
-        <p> My research focuses on enhancing the efficiency of Molecular Communication 
-        (MC) systems through rigorous analysis of Bit Error Rate (BER) in diffusion-based 
-        channels. The inherently stochastic nature of molecular diffusion presents 
-        significant challenges for reliable communication, particularly in analyzing 
-        and optimizing system performance. My primary objective is to develop comprehensive 
-        diffusion models that accurately characterize these stochastic processes, enabling 
-        the design of more efficient MC systems. Specifically, this work will establish theoretical 
-        frameworks to quantify and improve communication reliability in nanoscale environments 
-        where traditional electromagnetic approaches are impractical. </p>
+        <p> Under construction </p>
+        <script>if(!window.picflow)
+{window.picflow=!0;var s=document.createElement("script");
+s.src="https://picflow.com/embed/main.js";
+s.type='module';s.defer=true;document.head.appendChild(s);}
+</script>
+
+<picflow-gallery 
+id="gal_wj6q55fmpOv2kEz0" 
+tenant="tnt_YqKNQAJDqNah1tPo" 
+lightbox="#000000E6">
+</picflow-gallery>
     </div>
   `,
 
