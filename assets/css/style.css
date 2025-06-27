@@ -551,7 +551,9 @@
   display: block;
   margin-bottom: 0;
   break-inside: avoid; /* Prevent images from breaking between columns */
+  height: auto;
   object-fit: cover;
+  grid-row-end: span 1; /* Auto-filled by JS later if desired */
 }
 
 

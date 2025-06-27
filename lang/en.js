@@ -183,15 +183,7 @@ const enResearchPageData = {
         <b>Optimization of Molecule Mixtures and Cross-Reactive Sensing Arrays in Molecular Communication</b>
         , <i> Supervised by </i> Bastian Heinlein, M.Sc. and Prof. Dr.-Ing. Vahid Jamali  <br>
         <br>
-        <b>Abstract</b> : Molecular Communication (MC) is an emerging paradigm utilizing molecules as information carriers, with applications in healthcare, environmental monitoring, and biotechnology. 
-
-        One promising research direction is Olfaction-Inspired MC (OMC), which is inspired by biological olfaction systems. OMC leverages cross-reactive sensing units like biological receptors or technical sensors, where the number of molecule types is higher than the number of receptor types. This enables the utilization of multiple molecule types in a single transmission, as molecular mixtures enhance transmission efficiency. However, at the same time, molecule mixtures also pose new challenges such as the selection of mixtures alphabets. Previous studies have explored mixture selection using a dissimilarity metric, which is despite its effectiveness, is computationally complex. 
-
-        This thesis explores a simpler alternative approach using the Euclidean distance and evaluates two problem formulations: the Max-Min approach, which maximizes separability between mixtures, and the Repulsion-Based approach, inspired by natural particle interactions, which minimizes repulsive forces. Additionally, so-called priority messages are introduced to convey critical information with lower error rates than regular messages.
-
-        Moreover, we evaluate algorithms to select suitable sensing units, ensuring strong detection performance while maintaining low complexity and cost constraints. In this regard, the Fast Binary Search (FBS) and Condition Number Minimization techniques are evaluated, proving significantly improves communication accuracy over random selection methods.
-
-        This study has the potential to enhance diagnostics, environmental monitoring, and next-generation bio-communication networks. Future research will focus on refining optimization methods, enhancing validation processes, and improving receptor selection to enable scalable real-world applications. 
+        <b>Abstract</b> : Molecular Communication (MC) is a growing field that uses molecules as information carriers, with applications in healthcare, environmental monitoring, and biotechnology. A promising direction is Olfaction-Inspired MC (OMC), which mimics biological olfaction by using cross-reactive sensors where the number of molecule types exceeds that of receptors. This allows efficient transmission using molecular mixtures but also introduces challenges like selecting suitable mixture alphabets. While previous work used complex dissimilarity metrics, this thesis proposes a simpler Euclidean distance-based method. Two formulations are explored: a Max-Min approach to maximize mixture separability, and a Repulsion-Based method inspired by natural particle interactions. Priority messages are also introduced for critical data with lower error rates. For sensor selection, Fast Binary Search and Condition Number Minimization are evaluated, outperforming random selection in accuracy and cost-efficiency. The findings support future development of robust bio-communication systems, with ongoing work focusing on scalable optimization and receptor design.
 
         <h2 class='title'> Bachelor's Thesis </h2>
         <b>Vehicle Datalogger</b>, <i> Supervised by </i> Asst.Prof. Dr. Supachai Vorapojpisut<br>
@@ -381,22 +373,29 @@ const enHobbyPageData = {
 
 // ---------- Project data
 const enProjectPageData = {
-  title: "Project",
+  title: "Projects",
   content: `
-    <div class='Project_content'>
-        <p> Under construction </p>
-        <script>if(!window.picflow)
-{window.picflow=!0;var s=document.createElement("script");
-s.src="https://picflow.com/embed/main.js";
-s.type='module';s.defer=true;document.head.appendChild(s);}
-</script>
+    <h1 class='title' align="center"> "Under Construction" </h1>
 
-<picflow-gallery 
-id="gal_wj6q55fmpOv2kEz0" 
-tenant="tnt_YqKNQAJDqNah1tPo" 
-lightbox="#000000E6">
-</picflow-gallery>
+    <div class = "Projects">
+      <h2 class='title'> Project Seminar Signal detection and Parameter estimation </h2>
+      Implemented MATLAB and analyzed the likelihood of the estimator based on the paper “Maximum 
+      Likelihood Speed and Distance Estimation for OFDM Radar”
+
+      <h2 class='title'> Project Seminar Emerging Topics in MIMO Communication Networks </h2>
+      Implemented MATLAB for target detection and parameter estimation based on the paper
+      “System‑Level Analysis of Joint Sensing and Communication Based on 5G New Radio”
+
+      <h2 class='title'> Convex Optimization </h2>
+      Implemented MATLAB and the CVX library, determine the best antenna for sending 
+      and receiving data to improve BER based on the paper “Receive Antenna Selection 
+      Based on Union‑Bound Minimization Using Convex Optimization”
+
+      <h2 class='title'> Reinforcement Learning </h2>
+      Created an automated Snake game using Reinforcement Learning in Python.
+
     </div>
+
   `,
 
 };
