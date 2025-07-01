@@ -267,7 +267,7 @@ const enHobbyPageData = {
   I particularly enjoy hiking in the Odenwald mountains, where I can appreciate the natural beauty of the region.
   <br>
   <br>
-  Let's see where I have been so far in Germany. (Able to change to Schloss/ othoer countries I have visted as well)
+  Let's see where I have been so far in Germany. (Able to change to Schloss/ other countries I have visted as well)
     <!-- Google Maps Embed -->
   <div class="map-container">
     <iframe
