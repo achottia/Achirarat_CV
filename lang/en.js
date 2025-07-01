@@ -57,21 +57,21 @@ const enHomePageData = {
     </li>
   </ul>
 
-  <h2 class='title'>Human Languages (Mostly Fluent, Sometimes confused)</h2>
+  <h2 class='title'>Human Languages (Mostly Fluent, Sometimes Confused)</h2>
   <ul style="list-style-type: none; padding-left: 0;">
     <li>Thai (Native)</li>
     <li>English (Fluent)</li>
     <li>German (Intermediate)</li>
     <li>Japanese (Intermediate)</li>
   </ul>
-  <h2 class='title'>Coding Languages (Copy and paste with confidence)</h2>
+  <h2 class='title'>Coding Languages (Copy and Paste with Confidence)</h2>
   <ul style="list-style-type: none; padding-left: 0;">
     <li>MATLAB/ SIMULINK</li>
     <li>C/ C++</li>
     <li>Python</li>
     <li>SQL</li>
     <li>R</li>
-    <li> <u>Learning</u>: Node.Js, HTML by doing this CV</li>
+    <li> <u>Learning</u>: Node.Js, HTML by doing this CV-website</li>
   </ul>
 
   </div>
