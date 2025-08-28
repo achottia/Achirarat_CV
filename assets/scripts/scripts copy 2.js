@@ -38,13 +38,13 @@ $(document).ready(function () {
         active: globalData.email ? true : false,
         img: "../assets/images/icons/mail.png",
       },
-<!--
+      <!--
       {
         name: globalData.whatsapp,
         active: globalData.whatsapp ? true : false,
         img: "../assets/images/icons/whatsapp.png",
       },
--->
+      -->
       {
         name: globalData.twitter,
         active: globalData.twitter ? true : false,
