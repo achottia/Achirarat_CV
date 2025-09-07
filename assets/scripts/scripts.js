@@ -73,16 +73,36 @@ $(document).ready(function () {
   };
 
   function homeData() {
-    document.getElementById("page_title").innerText =
-      lang === "en" ? enHomePageData.name : deHomePageData.name;
+    if (lang === "en") {
+      document.getElementById("page_title").innerText = enHomePageData.name;
+      document.getElementById("home_name").innerText = enHomePageData.name;
+      document.getElementById("home_job_title").innerText = enHomePageData.jobTitle;
+      document.getElementById("home_title").innerText = enHomePageData.home_title;
+      document.getElementById("home_content").innerHTML = enHomePageData.home_content;
+    } else if (lang === "de") {
+      document.getElementById("page_title").innerText = deHomePageData.name;
+      document.getElementById("home_name").innerText = deHomePageData.name;
+      document.getElementById("home_job_title").innerText = deHomePageData.jobTitle;
+      document.getElementById("home_title").innerText = deHomePageData.home_title;
+      document.getElementById("home_content").innerHTML = deHomePageData.home_content;
+    } else if (lang === "jp") {
+      document.getElementById("page_title").innerText = jpHomePageData.name;
+      document.getElementById("home_name").innerText = jpHomePageData.name;
+      document.getElementById("home_job_title").innerText = jpHomePageData.jobTitle;
+      document.getElementById("home_title").innerText = jpHomePageData.home_title;
+      document.getElementById("home_content").innerHTML = jpHomePageData.home_content;
+    } else {
+      // fallback (default English)
+      document.getElementById("page_title").innerText = enHomePageData.name;
+      document.getElementById("home_name").innerText = enHomePageData.name;
+      document.getElementById("home_job_title").innerText = enHomePageData.jobTitle;
+      document.getElementById("home_title").innerText = enHomePageData.home_title;  
+      document.getElementById("home_content").innerHTML = enHomePageData.home_content;
+    }
 
     document.getElementById("home_image").src = home_data.image
       ? home_data.image
       : "";
-    document.getElementById("home_name").innerText =
-      lang === "en" ? enHomePageData.name : deHomePageData.name;
-    document.getElementById("home_job_title").innerText =
-      lang === "en" ? enHomePageData.jobTitle : deHomePageData.jobTitle;
     document.getElementById("home_links").innerHTML = home_data.links
       .filter((item) => item.active)
       .map(
@@ -92,11 +112,6 @@ $(document).ready(function () {
             </li>`
       )
       .join("");
-
-    document.getElementById("home_title").innerText =
-      lang === "en" ? enHomePageData.home_title : deHomePageData.home_title;
-    document.getElementById("home_content").innerHTML =
-      lang === "en" ? enHomePageData.home_content : deHomePageData.home_content;
   }
 
   if (pathname === "/" || pathname === "/index") {
@@ -147,57 +162,26 @@ $(document).ready(function () {
       .join("");
   };
 
+  // Currently Closed for update
   function publicationsData() {
-    document.getElementById("page_title").innerText =
-      lang === "en" ? "Publications" : "Publications";
-
-    document.getElementById("publications_type_one_title").innerHTML =
-      lang === "en"
-        ? enPublicationsPageData.type_one_title
-        : dePublicationsPageData.type_one_title;
-
-    setPublicationData(
-      "publications_type_one_data",
-      lang === "en"
-        ? enPublicationsPageData.type_one_items
-        : dePublicationsPageData.type_one_items
-    );
-
-    document.getElementById("publications_type_two_title").innerHTML =
-      lang === "en"
-        ? enPublicationsPageData.type_two_title
-        : dePublicationsPageData.type_two_title;
-
-    setPublicationData(
-      "publications_type_two_data",
-      lang === "en"
-        ? enPublicationsPageData.type_two_items
-        : dePublicationsPageData.type_two_items
-    );
-
-    document.getElementById("publications_type_three_title").innerHTML =
-      lang === "en"
-        ? enPublicationsPageData.type_three_title
-        : dePublicationsPageData.type_three_title;
-
-    setPublicationData(
-      "publications_type_three_data",
-      lang === "en"
-        ? enPublicationsPageData.type_three_items
-        : dePublicationsPageData.type_three_items
-    );
-
-    document.getElementById("publications_type_four_title").innerHTML =
-      lang === "en"
-        ? enPublicationsPageData.type_four_title
-        : dePublicationsPageData.type_four_title;
-
-    setPublicationData(
-      "publications_type_four_data",
-      lang === "en"
-        ? enPublicationsPageData.type_four_items
-        : dePublicationsPageData.type_four_items
-    );
+    if (lang === "en") {
+      document.getElementById("page_title").innerText = "Publications"
+      document.getElementById("publications_type_one_title").innerHTML = enPublicationsPageData.type_one_title
+      setPublicationData("publications_type_one_data", enPublicationsPageData.type_one_items);
+      document.getElementById("publications_type_two_title").innerHTML = enPublicationsPageData.type_two_title
+      setPublicationData("publications_type_two_data", enPublicationsPageData.type_two_items);
+      document.getElementById("publications_type_three_title").innerHTML = enPublicationsPageData.type_three_title
+      setPublicationData("publications_type_three_data", enPublicationsPageData.type_three_items);
+      document.getElementById("publications_type_four_title").innerHTML = enPublicationsPageData.type_four_title
+      setPublicationData("publications_type_four_data", enPublicationsPageData.type_four_items);
+    } else if (lang === "de") {
+      document.getElementById("page_title").innerText = "Publikationen"
+    } else if (lang === "jp") {
+      document.getElementById("page_title").innerText = "出版"
+    } else {
+      // fallback (default English)
+      document.getElementById("page_title").innerText = "Publications"
+    }
   }
 
   if (pathname === "/publications") {
@@ -206,13 +190,24 @@ $(document).ready(function () {
 
   // Research page data
   function researchData() {
-    document.getElementById("page_title").innerText =
-      lang === "en" ? "Research" : "Research";
-
-    document.getElementById("research_title").innerHTML =
-      lang === "en" ? enResearchPageData.title : deResearchPageData.title;
-    document.getElementById("research_data").innerHTML =
-      lang === "en" ? enResearchPageData.content : deResearchPageData.content;
+    if (lang === "en") {
+      document.getElementById("page_title").innerText = "Research"
+      document.getElementById("research_title").innerHTML = enResearchPageData.title;
+      document.getElementById("research_data").innerHTML = enResearchPageData.content;
+    } else if (lang === "de") {
+      document.getElementById("page_title").innerText = "Forschung"
+      document.getElementById("research_title").innerHTML = deResearchPageData.title;
+      document.getElementById("research_data").innerHTML = deResearchPageData.content;
+    } else if (lang === "jp") {
+      document.getElementById("page_title").innerText = "研究"
+      document.getElementById("research_title").innerHTML = jpResearchPageData.title;
+      document.getElementById("research_data").innerHTML = jpResearchPageData.content;
+    } else {
+      // fallback (default English)
+      document.getElementById("page_title").innerText = "Research"
+      document.getElementById("research_title").innerHTML = enResearchPageData.title;
+      document.getElementById("research_data").innerHTML = enResearchPageData.content;
+    }
   }
 
   if (pathname === "/research") {
@@ -221,46 +216,149 @@ $(document).ready(function () {
 
   // Jobs page data
   function jobsData() {
-    document.getElementById("page_title").innerText =
-      lang === "en" ? "Jobs" : " Jobs";
-
-    document.getElementById("jobs_title").innerHTML =
-      lang === "en" ? enJobsPageData.title : deJobsPageData.title;
-
-    document.getElementById("jobs_data").innerHTML = (
-      lang === "en" ? enJobsPageData.items : deJobsPageData.items
-    )
-      .map(
-        (job) =>
-          `<div class='job_item'>
-            <div class='job_header'>
-              <div>
-                <h1>${job.title}${","}</h1> <br />
+    if (lang === "en") {
+      document.getElementById("page_title").innerText = " Jobs";
+      document.getElementById("jobs_title").innerHTML = enJobsPageData.title;
+      document.getElementById("jobs_data").innerHTML = (enJobsPageData.items)
+        .map(
+          (job) =>
+            `<div class='job_item'>
+              <div class='job_header'>
+                <div>
+                  <h1>${job.title}${","}</h1> <br />
+                </div>
               </div>
-            </div>
-            <div> 
-                <h10> ${job.company} ${","}</h2>
-                <span>${job.startData} - ${
-                  job.endDate ? job.endDate : lang === "en" ? "Now" : " Now "
-                }</span>
-                <span class='job_location'>${job.location}</span>
-            </div>  
+              <div> 
+                  <h10> ${job.company} ${","}</h2>
+                  <span>${job.startData} - ${
+                    job.endDate ? job.endDate : "Now"
+                  }</span>
+                  <span class='job_location'>${job.location}</span>
+              </div>  
+  
+              <p>${job.abstract}</p>
+              ${
+                job.achievements.length > 0
+                  ? `<div class="job_achievements">
+                    <ul>
+                      ${job.achievements
+                        .map((achievement) => `<li>${achievement}</li>`)
+                        .join("")}
+                    </ul>
+                  </div>`
+                  : ""
+              }
+          </div>`
+        )
+        .join("");
 
-            <p>${job.abstract}</p>
-            ${
-              job.achievements.length > 0
-                ? `<div class="job_achievements">
-                  <ul>
-                    ${job.achievements
-                      .map((achievement) => `<li>${achievement}</li>`)
-                      .join("")}
-                  </ul>
-                </div>`
-                : ""
-            }
-        </div>`
-      )
-      .join("");
+    } else if (lang === "de") {
+      document.getElementById("page_title").innerText = " Berufe";
+      document.getElementById("jobs_title").innerHTML = deJobsPageData.title;
+      document.getElementById("jobs_data").innerHTML = (deJobsPageData.items)
+        .map(
+          (job) =>
+            `<div class='job_item'>
+              <div class='job_header'>
+                <div>
+                  <h1>${job.title}${","}</h1> <br />
+                </div>
+              </div>
+              <div> 
+                  <h10> ${job.company} ${","}</h2>
+                  <span>${job.startData} - ${
+                    job.endDate ? job.endDate : "Now"
+                  }</span>
+                  <span class='job_location'>${job.location}</span>
+              </div>  
+  
+              <p>${job.abstract}</p>
+              ${
+                job.achievements.length > 0
+                  ? `<div class="job_achievements">
+                    <ul>
+                      ${job.achievements
+                        .map((achievement) => `<li>${achievement}</li>`)
+                        .join("")}
+                    </ul>
+                  </div>`
+                  : ""
+              }
+          </div>`
+        )
+        .join("");
+    } else if (lang === "jp") {
+      document.getElementById("page_title").innerText = "職";
+      document.getElementById("jobs_title").innerHTML = jpJobsPageData.title;
+      document.getElementById("jobs_data").innerHTML = (jpJobsPageData.items)
+        .map(
+          (job) =>
+            `<div class='job_item'>
+              <div class='job_header'>
+                <div>
+                  <h1>${job.title}${","}</h1> <br />
+                </div>
+              </div>
+              <div> 
+                  <h10> ${job.company} ${","}</h2>
+                  <span>${job.startData} - ${
+                    job.endDate ? job.endDate : "Now"
+                  }</span>
+                  <span class='job_location'>${job.location}</span>
+              </div>  
+  
+              <p>${job.abstract}</p>
+              ${
+                job.achievements.length > 0
+                  ? `<div class="job_achievements">
+                    <ul>
+                      ${job.achievements
+                        .map((achievement) => `<li>${achievement}</li>`)
+                        .join("")}
+                    </ul>
+                  </div>`
+                  : ""
+              }
+          </div>`
+        )
+        .join("");
+    } else {
+      // fallback (default English)
+      document.getElementById("page_title").innerText = " Jobs";
+      document.getElementById("jobs_title").innerHTML = enJobsPageData.title;
+      document.getElementById("jobs_data").innerHTML = (enJobsPageData.items)
+        .map(
+          (job) =>
+            `<div class='job_item'>
+              <div class='job_header'>
+                <div>
+                  <h1>${job.title}${","}</h1> <br />
+                </div>
+              </div>
+              <div> 
+                  <h10> ${job.company} ${","}</h2>
+                  <span>${job.startData} - ${
+                    job.endDate ? job.endDate : "Now"
+                  }</span>
+                  <span class='job_location'>${job.location}</span>
+              </div>  
+  
+              <p>${job.abstract}</p>
+              ${
+                job.achievements.length > 0
+                  ? `<div class="job_achievements">
+                    <ul>
+                      ${job.achievements
+                        .map((achievement) => `<li>${achievement}</li>`)
+                        .join("")}
+                    </ul>
+                  </div>`
+                  : ""
+              }
+          </div>`
+        )
+        .join("");
+    }
   }
 
   if (pathname === "/jobs") {
@@ -268,13 +366,35 @@ $(document).ready(function () {
   }
 
   // Contact page data
+  let contactTitle = "";
+
+  if (lang === "en") {
+    contactTitle = "Contact";
+  } else if (lang === "de") {
+    contactTitle = "Kontakt";
+  } else if (lang === "jp") {
+    contactTitle = "コンタクト";
+  } else {
+    contactTitle = "Contact"; // default fallback
+  }
+  
   const contact_data = {
-    contact_title: lang === "en" ? "Contact" : "ข้อมูลส่วนตัว",
+    contact_title: contactTitle,
     contact_items: [
       {
         img: "../assets/images/icons/location.png",
-        title: lang === "en" ? globalData.enAddress : globalData.faAddress,
-        active: globalData.enAddress || globalData.faAddress ? true : false,
+        title: (function () {
+          if (lang === "en") {
+            return globalData.enAddress;
+          } else if (lang === "de") {
+            return globalData.deAddress;
+          } else if (lang === "th") {
+            return globalData.thAddress;
+          } else {
+            return globalData.enAddress; // fallback
+          }
+        })(),
+        active: globalData.enAddress || globalData.deAddress || globalData.thAddress ? true : false,
       },
       {
         img: "../assets/images/icons/phone.png",
@@ -355,13 +475,24 @@ $(document).ready(function () {
 
   // Project page data
   function projectData() {
-    document.getElementById("page_title").innerText =
-      lang === "en" ? "Project" : "Project";
-
-    document.getElementById("project_title").innerHTML =
-      lang === "en" ? enProjectPageData.title : deProjectPageData.title;
-    document.getElementById("project_data").innerHTML =
-      lang === "en" ? enProjectPageData.content : deProjectPageData.content;
+    if (lang === "en") {
+      document.getElementById("page_title").innerText = "Project"
+      document.getElementById("project_title").innerHTML = enProjectPageData.title;
+      document.getElementById("project_data").innerHTML = enProjectPageData.content;
+    } else if (lang === "de") {
+      document.getElementById("page_title").innerText = "Projekte"
+      document.getElementById("project_title").innerHTML = deProjectPageData.title;
+      document.getElementById("project_data").innerHTML  = deProjectPageData.content;
+    } else if (lang === "jp") {
+      document.getElementById("page_title").innerText = "プロジェクト"
+      document.getElementById("project_title").innerHTML = jpProjectPageData.title;
+      document.getElementById("project_data").innerHTML  = jpProjectPageData.content;
+    } else {
+      // fallback (default English)
+      document.getElementById("page_title").innerText = "Project"
+      document.getElementById("project_title").innerHTML = enProjectPageData.title;
+      document.getElementById("project_data").innerHTML = enProjectPageData.content;
+    }
   }
 
   if (pathname === "/projects") {
@@ -370,13 +501,24 @@ $(document).ready(function () {
 
   // Hobby page data
   function hobbyData() {
-    document.getElementById("page_title").innerText =
-      lang === "en" ? "Hobby" : "Hobby";
-
-    document.getElementById("hobby_title").innerHTML =
-      lang === "en" ? enHobbyPageData.title : deHobbyPageData.title;
-    document.getElementById("hobby_data").innerHTML =
-      lang === "en" ? enHobbyPageData.content : deHobbyPageData.content;
+    if (lang === "en") {
+      document.getElementById("page_title").innerText = "Hobby";
+      document.getElementById("hobby_title").innerHTML = enHobbyPageData.title;
+      document.getElementById("hobby_data").innerHTML  = enHobbyPageData.content;
+    } else if (lang === "de") {
+      document.getElementById("page_title").innerText = "Hobby";
+      document.getElementById("hobby_title").innerHTML = deHobbyPageData.title;
+      document.getElementById("hobby_data").innerHTML  = deHobbyPageData.content;
+    } else if (lang === "jp") {
+      document.getElementById("page_title").innerText = "Hobby";
+      document.getElementById("hobby_title").innerHTML = jpHobbyPageData.title;
+      document.getElementById("hobby_data").innerHTML  = jpHobbyPageData.content;
+    } else {
+      // fallback (default English)
+      document.getElementById("page_title").innerText = "Hobby";
+      document.getElementById("hobby_title").innerHTML = enHobbyPageData.title;
+      document.getElementById("hobby_data").innerHTML  = enHobbyPageData.content;
+    }
   }
 
   if (pathname === "/hobbys") {
