@@ -233,7 +233,7 @@ const deJobsPageData = {
   title: "Berufserfahrung",
   items: [
     {
-      title: `Wissenschaftliche Hilfskraft Forschung`,
+      title: `Wissenschaftliche Hilfskraft Forschung (HiWi)`,
       company: "Resilient Communication Systems, TU Darmstadt",
       startData: "Oktober 2024",
       endDate: "April 2025",

@@ -233,7 +233,7 @@ $(document).ready(function () {
                   <span>${job.startData} - ${
                     job.endDate ? job.endDate : "Now"
                   }</span>
-                  <span class='job_location'>${job.location}</span>
+                  <span class='job_location'>${"|"} ${job.location}</span>
               </div>  
   
               <p>${job.abstract}</p>
@@ -269,7 +269,7 @@ $(document).ready(function () {
                   <span>${job.startData} - ${
                     job.endDate ? job.endDate : "Now"
                   }</span>
-                  <span class='job_location'>${job.location}</span>
+                  <span class='job_location'>${"|"} ${job.location}</span>
               </div>  
   
               <p>${job.abstract}</p>
@@ -304,7 +304,7 @@ $(document).ready(function () {
                   <span>${job.startData} - ${
                     job.endDate ? job.endDate : "Now"
                   }</span>
-                  <span class='job_location'>${job.location}</span>
+                  <span class='job_location'>${"|"} ${job.location}</span>
               </div>  
   
               <p>${job.abstract}</p>
@@ -340,7 +340,7 @@ $(document).ready(function () {
                   <span>${job.startData} - ${
                     job.endDate ? job.endDate : "Now"
                   }</span>
-                  <span class='job_location'>${job.location}</span>
+                  <span class='job_location'>${"|"} ${job.location}</span>
               </div>  
   
               <p>${job.abstract}</p>
