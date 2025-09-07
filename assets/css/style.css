@@ -687,3 +687,26 @@
 .rtl_wrapper #contact_data a {
   direction: ltr;
 }
+
+/* Language switcher styles */
+.language_wrapper {
+  display: flex;
+  gap: 12px;
+  font-size: 14px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.lang-option {
+  color: #374151; /* Tailwind gray-700 */
+  transition: 0.2s;
+}
+
+.lang-option:hover {
+  text-decoration: underline;
+}
+
+.lang-option.active-lang {
+  font-weight: bold;
+  text-decoration: underline;
+}

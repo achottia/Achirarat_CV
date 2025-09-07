@@ -19,8 +19,11 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav" id="navbar_links"></ul>
       <div id="language" class="language_wrapper" onClick="languageHandler()">
-        <img id="languageIcon" alt="Language" />
-        <span id="languageText"></span>
+        <span class="lang-option" onclick="setLanguage('en')">EN</span> | 
+        <span class="lang-option" onclick="setLanguage('de')">DE</span> |
+        <!--
+        <span class="lang-option" onclick="setLanguage('jp')">JP</span>
+        -->
       </div>
     </div>
   </div>
@@ -30,17 +33,22 @@
 <script src="../data/navbar.js"></script>
 
 <script>
-  function languageHandler() {
-    let lang = localStorage.getItem("lang");
-
-    if (lang === "en") {
-      localStorage.setItem("lang", "de");
-      location.reload();
-    } else {
-      localStorage.setItem("lang", "en");
-      location.reload();
-    }
+  function setLanguage(lang) {
+    localStorage.setItem("lang", lang);
+    location.reload();
   }
+
+  // Highlight active language on load
+  window.onload = function () {
+    const currentLang = localStorage.getItem("lang") || "en";
+    document.querySelectorAll(".lang-option").forEach(el => {
+      if (el.getAttribute("data-lang") === currentLang) {
+        el.classList.add("active-lang");
+      } else {
+        el.classList.remove("active-lang");
+      }
+    });
+  };
 </script>
 
 <script>

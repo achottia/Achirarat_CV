@@ -7,6 +7,7 @@ $(document).ready(function () {
     localStorage.setItem("lang", "en");
   }
 
+/*
   if (lang === "fa") {
     document.getElementById("content_wrapper").classList.add("ltr_wrapper");
     if (
@@ -28,6 +29,7 @@ $(document).ready(function () {
       document.getElementById("languageText").innerText = "DE";
     }
   }
+*/
 
   // Home page data
   const home_data = {
@@ -38,13 +40,13 @@ $(document).ready(function () {
         active: globalData.email ? true : false,
         img: "../assets/images/icons/mail.png",
       },
-<!--
+/*
       {
         name: globalData.whatsapp,
         active: globalData.whatsapp ? true : false,
         img: "../assets/images/icons/whatsapp.png",
       },
--->
+*/
       {
         name: globalData.twitter,
         active: globalData.twitter ? true : false,
