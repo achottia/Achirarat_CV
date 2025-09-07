@@ -8,7 +8,7 @@ const jpNavbarData = {
   Project: "プロジェクト",
   Jobs: "職務経歴",
   Hobby: "趣味",
-  Contact: "連絡先",
+  Contact: "コンタクト",
 };
 
 // ---------- Home page data
