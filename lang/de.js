@@ -181,6 +181,13 @@ const deResearchPageData = {
         <b>Optimierung von Molekülmischungen und kreuzreaktiven Sensorarrays in der Molekularen Kommunikation</b>
         , <i> Betreut von </i> Bastian Heinlein, M.Sc. und Prof. Dr.-Ing. Vahid Jamali  <br>
         <br>
+
+        <div style="display: flex; gap: 5px; flex-wrap: wrap;">
+          <img src="research_pic/SER_vahmat_numpnts_10_75.png" alt="SER" width="330">
+          <img src="research_pic/ra_mm_pri_nml_2d.png" alt="prio" width="330">
+          <img src="research_pic/min_dist_l2_dis.png" alt="min dist" width="330">
+        </div>
+
         <b>Abstract</b> : Molekulare Kommunikation (MC) ist ein wachsendes Forschungsfeld, das Moleküle als Informationsträger nutzt, 
         mit Anwendungen im Gesundheitswesen, in der Umweltüberwachung und in der Biotechnologie. 
         Ein vielversprechender Ansatz ist die Geruchsinspirierte MC (OMC), die die biologische 
@@ -200,6 +207,13 @@ const deResearchPageData = {
         <h2 class='title'> Bachelorarbeit </h2>
         <b>Fahrzeug-Datenlogger</b>, <i> Betreut von </i> Asst.Prof. Dr. Supachai Vorapojpisut<br>
         <br>
+
+        <div style="display: flex; gap: 5px; flex-wrap: wrap;">
+          <img src="research_pic/be_over.png" alt="overall" width="330">
+          <img src="research_pic/be_over2.png" alt="overall2" width="330">
+          <img src="research_pic/simu.png" alt="simulink" width="330">
+        </div>
+
         <b>Abstract</b> : Das Auto ist das beliebteste Transportmittel und muss regelmäßig überprüft werden. 
         Es gibt mehrere Methoden zur Überprüfung der Motorleistung, wobei die bequemste darin besteht, 
         das Personal in einer Werkstatt zu fragen. Allerdings ist es nicht praktisch, jedes Mal dorthin zu gehen, 

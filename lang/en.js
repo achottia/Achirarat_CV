@@ -184,11 +184,25 @@ const enResearchPageData = {
         <b>Optimization of Molecule Mixtures and Cross-Reactive Sensing Arrays in Molecular Communication</b>
         , <i> Supervised by </i> Bastian Heinlein, M.Sc. and Prof. Dr.-Ing. Vahid Jamali  <br>
         <br>
+
+        <div style="display: flex; gap: 5px; flex-wrap: wrap;">
+          <img src="research_pic/SER_vahmat_numpnts_10_75.png" alt="SER" width="330">
+          <img src="research_pic/ra_mm_pri_nml_2d.png" alt="prio" width="330">
+          <img src="research_pic/min_dist_l2_dis.png" alt="min dist" width="330">
+        </div>
+
         <b>Abstract</b> : Molecular Communication (MC) is a growing field that uses molecules as information carriers, with applications in healthcare, environmental monitoring, and biotechnology. A promising direction is Olfaction-Inspired MC (OMC), which mimics biological olfaction by using cross-reactive sensors where the number of molecule types exceeds that of receptors. This allows efficient transmission using molecular mixtures but also introduces challenges like selecting suitable mixture alphabets. While previous work used complex dissimilarity metrics, this thesis proposes a simpler Euclidean distance-based method. Two formulations are explored: a Max-Min approach to maximize mixture separability, and a Repulsion-Based method inspired by natural particle interactions. Priority messages are also introduced for critical data with lower error rates. For sensor selection, Fast Binary Search and Condition Number Minimization are evaluated, outperforming random selection in accuracy and cost-efficiency. The findings support future development of robust bio-communication systems, with ongoing work focusing on scalable optimization and receptor design.
 
         <h2 class='title'> Bachelor's Thesis </h2>
         <b>Vehicle Datalogger</b>, <i> Supervised by </i> Asst.Prof. Dr. Supachai Vorapojpisut<br>
         <br>
+
+        <div style="display: flex; gap: 5px; flex-wrap: wrap;">
+          <img src="research_pic/be_over.png" alt="overall" width="330">
+          <img src="research_pic/be_over2.png" alt="overall2" width="330">
+          <img src="research_pic/simu.png" alt="simulink" width="330">
+        </div>
+
         <b>Abstract</b> : The car is the most popular which need to be checked periodically. There are several
         methods to engine performance in which the most comfortable is to ask staffs at car service
         center. However, it is not convenient to go to there and the cost is expensive although it is
