@@ -6,42 +6,42 @@ $(document).ready(function () {
   }
 
   const navbar_data = {
-    title: lang === "fa" ? faNavbarData.title : enNavbarData.title,
+    title: lang === "de" ? deNavbarData.title : enNavbarData.title,
     navbar_links: [
       {
         active: navbarLinks.home ? true : false,
-        title: lang === "fa" ? faNavbarData.Home : enNavbarData.Home,
+        title: lang === "de" ? deNavbarData.Home : enNavbarData.Home,
         url: "/",
       },
       {
         active: navbarLinks.publications ? true : false,
         title:
-          lang === "fa" ? faNavbarData.publications : enNavbarData.publications,
+          lang === "de" ? deNavbarData.publications : enNavbarData.publications,
         url: "/publications.html",
       },
       {
         active: navbarLinks.research ? true : false,
-        title: lang === "fa" ? faNavbarData.Research : enNavbarData.Research,
+        title: lang === "de" ? deNavbarData.Research : enNavbarData.Research,
         url: "/research.html",
       },
       {
         active: navbarLinks.project ? true : false,
-        title: lang === "fa" ? faNavbarData.Project : enNavbarData.Project,
+        title: lang === "de" ? deNavbarData.Project : enNavbarData.Project,
         url: "/projects.html",
       },
       {
         active: navbarLinks.jobs ? true : false,
-        title: lang === "fa" ? faNavbarData.Jobs : enNavbarData.Jobs,
+        title: lang === "de" ? deNavbarData.Jobs : enNavbarData.Jobs,
         url: "/jobs.html",
       },
       {
         active: navbarLinks.hobby ? true : false,
-        title: lang === "fa" ? faNavbarData.Hobby : enNavbarData.Hobby,
+        title: lang === "de" ?deNavbarData.Hobby : enNavbarData.Hobby,
         url: "/hobbys.html",
       },
       {
         active: navbarLinks.contact ? true : false,
-        title: lang === "fa" ? faNavbarData.Contact : enNavbarData.Contact,
+        title: lang === "de" ? deNavbarData.Contact : enNavbarData.Contact,
         url: "/contact.html",
       },
     ],

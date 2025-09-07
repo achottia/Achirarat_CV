@@ -24,8 +24,8 @@ $(document).ready(function () {
       document.getElementById("languageText")
     ) {
       document.getElementById("languageIcon").src =
-        "../assets/images/icons/th.png";
-      document.getElementById("languageText").innerText = "TH";
+        "../assets/images/icons/de.png";
+      document.getElementById("languageText").innerText = "DE";
     }
   }
 
@@ -72,15 +72,15 @@ $(document).ready(function () {
 
   function homeData() {
     document.getElementById("page_title").innerText =
-      lang === "en" ? enHomePageData.name : faHomePageData.name;
+      lang === "en" ? enHomePageData.name : deHomePageData.name;
 
     document.getElementById("home_image").src = home_data.image
       ? home_data.image
       : "";
     document.getElementById("home_name").innerText =
-      lang === "en" ? enHomePageData.name : faHomePageData.name;
+      lang === "en" ? enHomePageData.name : deHomePageData.name;
     document.getElementById("home_job_title").innerText =
-      lang === "en" ? enHomePageData.jobTitle : faHomePageData.jobTitle;
+      lang === "en" ? enHomePageData.jobTitle : deHomePageData.jobTitle;
     document.getElementById("home_links").innerHTML = home_data.links
       .filter((item) => item.active)
       .map(
@@ -92,9 +92,9 @@ $(document).ready(function () {
       .join("");
 
     document.getElementById("home_title").innerText =
-      lang === "en" ? enHomePageData.home_title : faHomePageData.home_title;
+      lang === "en" ? enHomePageData.home_title : deHomePageData.home_title;
     document.getElementById("home_content").innerHTML =
-      lang === "en" ? enHomePageData.home_content : faHomePageData.home_content;
+      lang === "en" ? enHomePageData.home_content : deHomePageData.home_content;
   }
 
   if (pathname === "/" || pathname === "/index") {
@@ -152,49 +152,49 @@ $(document).ready(function () {
     document.getElementById("publications_type_one_title").innerHTML =
       lang === "en"
         ? enPublicationsPageData.type_one_title
-        : faPublicationsPageData.type_one_title;
+        : dePublicationsPageData.type_one_title;
 
     setPublicationData(
       "publications_type_one_data",
       lang === "en"
         ? enPublicationsPageData.type_one_items
-        : faPublicationsPageData.type_one_items
+        : dePublicationsPageData.type_one_items
     );
 
     document.getElementById("publications_type_two_title").innerHTML =
       lang === "en"
         ? enPublicationsPageData.type_two_title
-        : faPublicationsPageData.type_two_title;
+        : dePublicationsPageData.type_two_title;
 
     setPublicationData(
       "publications_type_two_data",
       lang === "en"
         ? enPublicationsPageData.type_two_items
-        : faPublicationsPageData.type_two_items
+        : dePublicationsPageData.type_two_items
     );
 
     document.getElementById("publications_type_three_title").innerHTML =
       lang === "en"
         ? enPublicationsPageData.type_three_title
-        : faPublicationsPageData.type_three_title;
+        : dePublicationsPageData.type_three_title;
 
     setPublicationData(
       "publications_type_three_data",
       lang === "en"
         ? enPublicationsPageData.type_three_items
-        : faPublicationsPageData.type_three_items
+        : dePublicationsPageData.type_three_items
     );
 
     document.getElementById("publications_type_four_title").innerHTML =
       lang === "en"
         ? enPublicationsPageData.type_four_title
-        : faPublicationsPageData.type_four_title;
+        : dePublicationsPageData.type_four_title;
 
     setPublicationData(
       "publications_type_four_data",
       lang === "en"
         ? enPublicationsPageData.type_four_items
-        : faPublicationsPageData.type_four_items
+        : dePublicationsPageData.type_four_items
     );
   }
 
@@ -208,9 +208,9 @@ $(document).ready(function () {
       lang === "en" ? "Research" : "Research";
 
     document.getElementById("research_title").innerHTML =
-      lang === "en" ? enResearchPageData.title : faResearchPageData.title;
+      lang === "en" ? enResearchPageData.title : deResearchPageData.title;
     document.getElementById("research_data").innerHTML =
-      lang === "en" ? enResearchPageData.content : faResearchPageData.content;
+      lang === "en" ? enResearchPageData.content : deResearchPageData.content;
   }
 
   if (pathname === "/research") {
@@ -223,10 +223,10 @@ $(document).ready(function () {
       lang === "en" ? "Jobs" : " Jobs";
 
     document.getElementById("jobs_title").innerHTML =
-      lang === "en" ? enJobsPageData.title : faJobsPageData.title;
+      lang === "en" ? enJobsPageData.title : deJobsPageData.title;
 
     document.getElementById("jobs_data").innerHTML = (
-      lang === "en" ? enJobsPageData.items : faJobsPageData.items
+      lang === "en" ? enJobsPageData.items : deJobsPageData.items
     )
       .map(
         (job) =>
@@ -357,9 +357,9 @@ $(document).ready(function () {
       lang === "en" ? "Project" : "Project";
 
     document.getElementById("project_title").innerHTML =
-      lang === "en" ? enProjectPageData.title : faProjectPageData.title;
+      lang === "en" ? enProjectPageData.title : deProjectPageData.title;
     document.getElementById("project_data").innerHTML =
-      lang === "en" ? enProjectPageData.content : faProjectPageData.content;
+      lang === "en" ? enProjectPageData.content : deProjectPageData.content;
   }
 
   if (pathname === "/projects") {
@@ -372,9 +372,9 @@ $(document).ready(function () {
       lang === "en" ? "Hobby" : "Hobby";
 
     document.getElementById("hobby_title").innerHTML =
-      lang === "en" ? enHobbyPageData.title : faHobbyPageData.title;
+      lang === "en" ? enHobbyPageData.title : deHobbyPageData.title;
     document.getElementById("hobby_data").innerHTML =
-      lang === "en" ? enHobbyPageData.content : faHobbyPageData.content;
+      lang === "en" ? enHobbyPageData.content : deHobbyPageData.content;
   }
 
   if (pathname === "/hobbys") {
