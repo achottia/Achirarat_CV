@@ -11,6 +11,7 @@ const navbarLinks = {
 const globalData = {
   image: "../files/profile.jpg",
   resume: "../files/resume.pdf",
+  resume_de: "../files/CV_Achirarat_de.pdf",
   enAddress: "- ",
   deAddress: "-",
   jpAddress: "-",

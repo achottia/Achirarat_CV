@@ -69,6 +69,12 @@ $(document).ready(function () {
         url: "/",
         img: "../assets/images/icons/resume.png",
       },
+      {
+        name: globalData.resume_de,
+        active: globalData.resume_de ? true : false,
+        url: "/",
+        img: "../assets/images/icons/resume_de.png",
+      },
     ],
   };
 
