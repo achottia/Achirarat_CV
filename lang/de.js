@@ -3,7 +3,7 @@ const deNavbarData = {
   title: " Achirarat Chottianchaiwat ",
   Home: "Startseite",
   publications: "Publikationen",
-  Education: "Ausbildung",
+  Education: "Studium",
   Research: "Forschung",
   Project: "Projekte",
   Jobs: "Berufserfahrung",
@@ -30,7 +30,7 @@ const deHomePageData = {
     theoretische Konzepte in praktische Ingenieuranwendungen in verschiedenen Branchen umzusetzen.
     </p>
     
-  <h2 class='title'>Ausbildung</h2>
+  <h2 class='title'>Studium</h2>
   <ul style="list-style-type: none; padding-left: 0;">
     <li style="margin-bottom: 15px;">
       <div style="display: flex; justify-content: space-between;">
