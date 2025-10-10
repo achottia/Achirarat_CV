@@ -6,41 +6,41 @@ $(document).ready(function () {
   }
 
   const navbar_data = {
-    title: lang === "de" ? deNavbarData.title : (lang === "jp" ? jpNavbarData.title : enNavbarData.title),
+    title: lang === "de" ? deNavbarData.title : (lang === "jp" ? jpNavbarData.title : (lang === "th" ? thNavbarData.title : enNavbarData.title)),
     navbar_links: [
       {
         active: navbarLinks.home ? true : false,
-        title: lang === "de" ? deNavbarData.Home : (lang === "jp" ? jpNavbarData.Home : enNavbarData.Home),
+        title: lang === "de" ? deNavbarData.Home : (lang === "jp" ? jpNavbarData.Home : (lang === "th" ? thNavbarData.Home : enNavbarData.Home)),
         url: "/",
       },
       {
         active: navbarLinks.publications ? true : false,
-        title: lang === "de" ? deNavbarData.publications : (lang === "jp" ? jpNavbarData.publications : enNavbarData.publications),
+        title: lang === "de" ? deNavbarData.publications : (lang === "jp" ? jpNavbarData.publications : (lang === "th" ? thNavbarData.publications : enNavbarData.publications)),
         url: "/publications.html",
       },
       {
         active: navbarLinks.research ? true : false,
-        title: lang === "de" ? deNavbarData.Research : (lang === "jp" ? jpNavbarData.Research : enNavbarData.Research),
+        title: lang === "de" ? deNavbarData.Research : (lang === "jp" ? jpNavbarData.Research : (lang === "th" ? thNavbarData.Research : enNavbarData.Research)),
         url: "/research.html",
       },
       {
         active: navbarLinks.project ? true : false,
-        title: lang === "de" ? deNavbarData.Project : (lang === "jp" ? jpNavbarData.Project : enNavbarData.Project),
+        title: lang === "de" ? deNavbarData.Project : (lang === "jp" ? jpNavbarData.Project : (lang === "th" ? thNavbarData.Project : enNavbarData.Project)),
         url: "/projects.html",
       },
       {
         active: navbarLinks.jobs ? true : false,
-        title: lang === "de" ? deNavbarData.Jobs : (lang === "jp" ? jpNavbarData.Jobs : enNavbarData.Jobs),
+        title: lang === "de" ? deNavbarData.Jobs : (lang === "jp" ? jpNavbarData.Jobs : (lang === "th" ? thNavbarData.Jobs : enNavbarData.Jobs)),
         url: "/jobs.html",
       },
       {
         active: navbarLinks.hobby ? true : false,
-        title: lang === "de" ? deNavbarData.Hobby : (lang === "jp" ? jpNavbarData.Hobby : enNavbarData.Hobby),
+        title: lang === "de" ? deNavbarData.Hobby : (lang === "jp" ? jpNavbarData.Hobby : (lang === "th" ? thNavbarData.Hobby : enNavbarData.Hobby)),
         url: "/hobbys.html",
       },
       {
         active: navbarLinks.contact ? true : false,
-        title: lang === "de" ? deNavbarData.Contact : (lang === "jp" ? jpNavbarData.Contact : enNavbarData.Contact),
+        title: lang === "de" ? deNavbarData.Contact : (lang === "jp" ? jpNavbarData.Contact : (lang === "th" ? thNavbarData.Contact : enNavbarData.Contact)),
         url: "/contact.html",
       },
     ],
