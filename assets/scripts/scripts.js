@@ -208,10 +208,6 @@ $(document).ready(function () {
       document.getElementById("page_title").innerText = "研究"
       document.getElementById("research_title").innerHTML = jpResearchPageData.title;
       document.getElementById("research_data").innerHTML = jpResearchPageData.content;
-    } else if (lang === "th") {
-      document.getElementById("page_title").innerText = "งานวิจัย"
-      document.getElementById("research_title").innerHTML = thResearchPageData.title;
-      document.getElementById("research_data").innerHTML = thResearchPageData.content;
     } else {
       // fallback (default English)
       document.getElementById("page_title").innerText = "Research"
