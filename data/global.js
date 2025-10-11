@@ -14,6 +14,7 @@ const globalData = {
   enAddress: "- ",
   deAddress: "-",
   jpAddress: "-",
+  thAddress: "-",
   phone: "+491638357972",
   email: "achirarat.chot@gmail.com",
   twitterTitle: "",
