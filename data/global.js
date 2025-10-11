@@ -20,8 +20,8 @@ const globalData = {
   twitter: "",
   googleScholarTitle: "Google Scholar title",
   googleScholar: "@googleScholar",
-  linkedinTitle: "Linkedin Username",
+  linkedinTitle: "achiraratchot",
   linkedin: "https://www.linkedin.com/in/achiraratchot/",
-  githubTitle: "Github Username",
+  githubTitle: "achottia",
   github: "https://github.com/achottia",
 };
