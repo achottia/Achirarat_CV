@@ -69,12 +69,6 @@ $(document).ready(function () {
         url: "/",
         img: "../assets/images/icons/resume.png",
       },
-      {
-        name: globalData.resume_de,
-        active: globalData.resume_de ? true : false,
-        url: "/",
-        img: "../assets/images/icons/resume_de.png",
-      },
     ],
   };
 
@@ -97,6 +91,12 @@ $(document).ready(function () {
       document.getElementById("home_job_title").innerText = jpHomePageData.jobTitle;
       document.getElementById("home_title").innerText = jpHomePageData.home_title;
       document.getElementById("home_content").innerHTML = jpHomePageData.home_content;
+    } else if (lang === "th") {
+      document.getElementById("page_title").innerText     = thHomePageData.name;
+      document.getElementById("home_name").innerText      = thHomePageData.name;
+      document.getElementById("home_job_title").innerText = thHomePageData.jobTitle;
+      document.getElementById("home_title").innerText     = thHomePageData.home_title;
+      document.getElementById("home_content").innerHTML   = thHomePageData.home_content;
     } else {
       // fallback (default English)
       document.getElementById("page_title").innerText = enHomePageData.name;
@@ -208,6 +208,10 @@ $(document).ready(function () {
       document.getElementById("page_title").innerText = "研究"
       document.getElementById("research_title").innerHTML = jpResearchPageData.title;
       document.getElementById("research_data").innerHTML = jpResearchPageData.content;
+    } else if (lang === "th") {
+      document.getElementById("page_title").innerText = "งานวิจัย"
+      document.getElementById("research_title").innerHTML = thResearchPageData.title;
+      document.getElementById("research_data").innerHTML = thResearchPageData.content;
     } else {
       // fallback (default English)
       document.getElementById("page_title").innerText = "Research"
@@ -239,7 +243,7 @@ $(document).ready(function () {
                   <span>${job.startData} - ${
                     job.endDate ? job.endDate : "Now"
                   }</span>
-                  <span class='job_location'>${"|"} ${job.location}</span>
+                  <span class='job_location'>${job.location}</span>
               </div>  
   
               <p>${job.abstract}</p>
@@ -275,7 +279,7 @@ $(document).ready(function () {
                   <span>${job.startData} - ${
                     job.endDate ? job.endDate : "Now"
                   }</span>
-                  <span class='job_location'>${"|"} ${job.location}</span>
+                  <span class='job_location'>${job.location}</span>
               </div>  
   
               <p>${job.abstract}</p>
@@ -297,6 +301,41 @@ $(document).ready(function () {
       document.getElementById("page_title").innerText = "職";
       document.getElementById("jobs_title").innerHTML = jpJobsPageData.title;
       document.getElementById("jobs_data").innerHTML = (jpJobsPageData.items)
+        .map(
+          (job) =>
+            `<div class='job_item'>
+              <div class='job_header'>
+                <div>
+                  <h1>${job.title}${","}</h1> <br />
+                </div>
+              </div>
+              <div> 
+                  <h10> ${job.company} ${","}</h2>
+                  <span>${job.startData} - ${
+                    job.endDate ? job.endDate : "Now"
+                  }</span>
+                  <span class='job_location'>${job.location}</span>
+              </div>  
+  
+              <p>${job.abstract}</p>
+              ${
+                job.achievements.length > 0
+                  ? `<div class="job_achievements">
+                    <ul>
+                      ${job.achievements
+                        .map((achievement) => `<li>${achievement}</li>`)
+                        .join("")}
+                    </ul>
+                  </div>`
+                  : ""
+              }
+          </div>`
+        )
+        .join("");
+    } else if (lang === "th") {
+      document.getElementById("page_title").innerText = "ประสบการณ์ทำงาน";
+      document.getElementById("jobs_title").innerHTML = thJobsPageData.title;
+      document.getElementById("jobs_data").innerHTML = (thJobsPageData.items)
         .map(
           (job) =>
             `<div class='job_item'>
@@ -346,7 +385,7 @@ $(document).ready(function () {
                   <span>${job.startData} - ${
                     job.endDate ? job.endDate : "Now"
                   }</span>
-                  <span class='job_location'>${"|"} ${job.location}</span>
+                  <span class='job_location'>${job.location}</span>
               </div>  
   
               <p>${job.abstract}</p>
@@ -380,6 +419,8 @@ $(document).ready(function () {
     contactTitle = "Kontakt";
   } else if (lang === "jp") {
     contactTitle = "コンタクト";
+  } else if (lang === "th") {
+    contactTitle = "ติดต่อ";
   } else {
     contactTitle = "Contact"; // default fallback
   }
@@ -424,12 +465,12 @@ $(document).ready(function () {
         name: globalData.whatsappTitle,
         active: globalData.whatsapp ? true : false,
       },
-      {
-        img: "../assets/images/icons/google-scholar.png",
-        url: globalData.googleScholar,
-        name: globalData.googleScholarTitle,
-        active: globalData.googleScholar ? true : false,
-      },
+      //{
+      //  img: "../assets/images/icons/google-scholar.png",
+      //  url: globalData.googleScholar,
+      //  name: globalData.googleScholarTitle,
+      //  active: globalData.googleScholar ? true : false,
+      //},
       {
         img: "../assets/images/icons/orcid.png",
         url: globalData.orcid,
@@ -493,6 +534,10 @@ $(document).ready(function () {
       document.getElementById("page_title").innerText = "プロジェクト"
       document.getElementById("project_title").innerHTML = jpProjectPageData.title;
       document.getElementById("project_data").innerHTML  = jpProjectPageData.content;
+    } else if (lang === "th") {
+      document.getElementById("page_title").innerText = "โปรเจค"
+      document.getElementById("project_title").innerHTML = thProjectPageData.title;
+      document.getElementById("project_data").innerHTML  = thProjectPageData.content;
     } else {
       // fallback (default English)
       document.getElementById("page_title").innerText = "Project"
@@ -519,6 +564,10 @@ $(document).ready(function () {
       document.getElementById("page_title").innerText = "Hobby";
       document.getElementById("hobby_title").innerHTML = jpHobbyPageData.title;
       document.getElementById("hobby_data").innerHTML  = jpHobbyPageData.content;
+    } else if (lang === "th") {
+      document.getElementById("page_title").innerText = "งานอดิเรก";
+      document.getElementById("hobby_title").innerHTML = thHobbyPageData.title;
+      document.getElementById("hobby_data").innerHTML  = thHobbyPageData.content;
     } else {
       // fallback (default English)
       document.getElementById("page_title").innerText = "Hobby";
