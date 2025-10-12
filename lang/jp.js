@@ -383,6 +383,8 @@ const jpHobbyPageData = {
     <img src="./files/images/IMG_98.webp">
     <img src="./files/images/IMG_99.webp">
     <img src="./files/images/IMG_100.webp">
+    <img src="./files/images/IMG_101.webp">
+    <img src="./files/images/IMG_102.webp">
   </div>
 </div>
 
