@@ -366,6 +366,47 @@ const enHobbyPageData = {
     <img src="./files/images/IMG_58.webp">
     <img src="./files/images/IMG_59.webp">
     <img src="./files/images/IMG_60.webp">
+    <img src="./files/images/IMG_61.webp">
+    <img src="./files/images/IMG_62.webp">
+    <img src="./files/images/IMG_63.webp">
+    <img src="./files/images/IMG_64.webp">
+    <img src="./files/images/IMG_65.webp">
+    <img src="./files/images/IMG_66.webp">
+    <img src="./files/images/IMG_67.webp">
+    <img src="./files/images/IMG_68.webp">
+    <img src="./files/images/IMG_69.webp">
+    <img src="./files/images/IMG_70.webp">
+    <img src="./files/images/IMG_71.webp">
+    <img src="./files/images/IMG_72.webp">
+    <img src="./files/images/IMG_73.webp">
+    <img src="./files/images/IMG_74.webp">
+    <img src="./files/images/IMG_75.webp">
+    <img src="./files/images/IMG_76.webp">
+    <img src="./files/images/IMG_77.webp">
+    <img src="./files/images/IMG_78.webp">
+    <img src="./files/images/IMG_79.webp">
+    <img src="./files/images/IMG_80.webp">
+    <img src="./files/images/IMG_81.webp">
+    <img src="./files/images/IMG_82.webp">
+    <img src="./files/images/IMG_83.webp">
+    <img src="./files/images/IMG_84.webp">
+    <img src="./files/images/IMG_85.webp">
+    <img src="./files/images/IMG_86.webp">
+    <img src="./files/images/IMG_87.webp">
+    <img src="./files/images/IMG_88.webp">
+    <img src="./files/images/IMG_89.webp">
+    
+    <img src="./files/images/IMG_90.webp">
+    <img src="./files/images/IMG_91.webp">
+    <img src="./files/images/IMG_92.webp">
+    <img src="./files/images/IMG_93.webp">
+    <img src="./files/images/IMG_94.webp">
+    <img src="./files/images/IMG_95.webp">
+    <img src="./files/images/IMG_96.webp">
+    <img src="./files/images/IMG_97.webp">
+    <img src="./files/images/IMG_98.webp">
+    <img src="./files/images/IMG_99.webp">
+    <img src="./files/images/IMG_100.webp">
   </div>
 </div>
 
