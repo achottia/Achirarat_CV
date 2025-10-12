@@ -1,3 +1,8 @@
+if (!sessionStorage.getItem('visited')) {
+  // New session - reset to English
+  localStorage.setItem("lang", "en");
+  sessionStorage.setItem('visited', 'true');
+}
 var lang = localStorage.getItem("lang");
 var pathname = window.location.pathname.replace(".html", "");
 
@@ -5,6 +10,7 @@ $(document).ready(function () {
   // ---------- Language Handler
   if (!lang) {
     localStorage.setItem("lang", "en");
+    lang = "en";
   }
 
 /*
