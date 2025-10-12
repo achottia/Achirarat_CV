@@ -426,15 +426,43 @@ const deHobbyPageData = {
 
 <style>
   .img-gallery {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 5px; /* Abstand zwischen Bildern */
+    column-count: 6;
+    column-gap: 10px;
+    padding: 10px;
   }
   
   .img-gallery img {
     width: 100%;
     height: auto;
     display: block;
+    margin-bottom: 10px;
+    break-inside: avoid;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .img-gallery img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1200px) {
+    .img-gallery {
+      column-count: 3;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .img-gallery {
+      column-count: 2;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .img-gallery {
+      column-count: 1;
+    }
   }
 </style>
 </div>
