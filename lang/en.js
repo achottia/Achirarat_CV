@@ -235,7 +235,7 @@ const enJobsPageData = {
     {
       title: `R&D Software Developer (Internship)`,
       company: "Keysight Technologies Deutschland GmbH",
-      startData: "October 2024",
+      startData: "October 2022",
       endDate: "March 2023",
       location: "Böblingen, Germany",
       abstract: "",

@@ -214,7 +214,7 @@ const jpJobsPageData = {
     {
       title: `研究開発ソフトウェアデベロッパー (インターン)`,
       company: "キサイト・テクノロジーズ・ドイチュラント GmbH",
-      startData: "2024年10月",
+      startData: "2022年10月",
       endDate: "2023年3月",
       location: "ベーブリンゲン、ドイツ",
       abstract: "",

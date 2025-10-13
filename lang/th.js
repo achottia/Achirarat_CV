@@ -56,7 +56,7 @@ const thHomePageData = {
   </ul>
   <h2 class='title'>ภาษาพูด (ส่วนใหญ่คล่อง บางครั้งสับสน)</h2>
   <ul style="list-style-type: none; padding-left: 0;">
-    <li>ไทย (เจ้าของภาษา)</li>
+    <li>ไทย (ภาษาแม่ (พ่อด้วย))</li>
     <li>อังกฤษ (คล่อง)</li>
     <li>เยอรมัน (ระดับกลาง)</li>
     <li>ญี่ปุ่น (ระดับกลาง)</li>
@@ -223,7 +223,7 @@ const thJobsPageData = {
     {
       title: `นักพัฒนาซอฟต์แวร์ R&D (ฝึกงาน)`,
       company: "Keysight Technologies Deutschland GmbH",
-      startData: "ตุลาคม 2567",
+      startData: "ตุลาคม 2565",
       endDate: "มีนาคม 2566",
       location: "เบิบลิงเงิน, เยอรมนี",
       abstract: "",

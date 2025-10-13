@@ -246,7 +246,7 @@ const deJobsPageData = {
     {
       title: `R&D Softwareentwickler (Praktikum)`,
       company: "Keysight Technologies Deutschland GmbH",
-      startData: "Oktober 2024",
+      startData: "Oktober 2022",
       endDate: "März 2023",
       location: "Böblingen, Deutschland",
       abstract: "",
