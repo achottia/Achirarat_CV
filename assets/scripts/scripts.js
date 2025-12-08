@@ -13,6 +13,8 @@ $(document).ready(function () {
     lang = "en";
   }
 
+$('.lang-option').removeClass('active-lang'); 
+$(`.lang-option[data-lang="${lang}"]`).addClass('active-lang');
 /*
   if (lang === "fa") {
     document.getElementById("content_wrapper").classList.add("ltr_wrapper");

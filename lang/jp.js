@@ -66,7 +66,7 @@ const jpHomePageData = {
     <li>Python</li>
     <li>SQL</li>
     <li>R</li>
-    <li> <u>学習中</u>: この履歴書サイト作成を通じてNode.Js, HTML</li>
+    <li> <u>学習中</u>: Rust</li>
   </ul>
 
   </div>

@@ -70,7 +70,7 @@ const deHomePageData = {
     <li>Python</li>
     <li>SQL</li>
     <li>R</li>
-    <li> <u>Lernen</u>: Node.Js, HTML durch dieses CV-Website-Projekt</li>
+    <li> <u>Derzeit kämpfe ich.</u>: Rust</li>
   </ul>
 
   </div>

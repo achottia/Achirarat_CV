@@ -71,7 +71,7 @@ const enHomePageData = {
     <li>Python</li>
     <li>SQL</li>
     <li>R</li>
-    <li> <u>Learning</u>: Node.Js, HTML by doing this CV-website</li>
+    <li> <u>Currently suffering</u>: Rust</li>
   </ul>
 
   </div>

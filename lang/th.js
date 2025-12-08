@@ -68,7 +68,7 @@ const thHomePageData = {
     <li>Python</li>
     <li>SQL</li>
     <li>R</li>
-    <li> <u>กำลังเรียนรู้</u>: Node.Js, HTML โดยการทำเว็บไซต์ CV นี้</li>
+    <li> <u>หาทำ</u>: Rust</li>
   </ul>
   </div>
   `,

@@ -559,3 +559,8 @@
   grid-row-end: span 1; /* Auto-filled by JS later if desired */
 }
 
+.active-lang {
+  font-weight: bold;
+  /* You may add other styles like a different color */
+  color: #ff0000;
+}
