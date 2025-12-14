@@ -296,6 +296,18 @@ const enHobbyPageData = {
     ></iframe>
   </div>
 
+<div class="Beer">
+  <h2 class='title'>Beer</h2>
+  Studying in Germany taught me that beer is not about getting drunk, it’s CULTURE!.
+  With nearly 5,000 varieties and over 1,300 breweries, every region proudly brews its own identity.
+
+  I’ve tried quite a few along the way, and <b>while some people collect stamps, I collect beer labels</b>.
+  Each label is a souvenir from a city, a brewery, and a good story.
+
+  Soon, I’ll add a PDF gallery of my beer label collection here (once I figure out how to display PDFs nicely).
+
+    </div>
+</div>
 
 <div class="gallery">
   <h2 class='title'>Gallery</h2>

@@ -310,6 +310,20 @@ const deHobbyPageData = {
     ></iframe>
   </div>
 
+<div class="Bier">
+  <h2 class="title">Bier</h2>
+  Das Studium in Deutschland hat mich eines gelehrt:  
+  Bier bedeutet nicht betrunken zu sein – es ist <b>Kultur</b>. 🍺  
+  Mit fast 5.000 Biersorten und über 1.300 Brauereien braut jede Region ihre eigene Identität.
+
+  Ich habe viele davon probiert und während manche Briefmarken sammeln,  
+  <b>sammle ich Bieretiketten</b>.  
+  Jedes Etikett ist ein Souvenir aus einer Stadt, einer Brauerei und einer guten Geschichte.
+
+  Bald werde ich hier eine PDF-Galerie meiner Bieretiketten-Sammlung hinzufügen  
+  (sobald ich herausfinde, wie man PDFs schön darstellt).
+</div>
+
 
 <div class="gallery">
   <h2 class='title'>Galerie</h2>
