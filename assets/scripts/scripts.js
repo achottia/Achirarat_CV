@@ -83,6 +83,12 @@ $(`.lang-option[data-lang="${lang}"]`).addClass('active-lang');
         url: "/",
         img: "../assets/images/icons/resume_de.png",
       },
+      {
+        name: globalData.resume_jp,
+        active: globalData.resume_jp ? true : false,
+        url: "/",
+        img: "../assets/images/icons/resume_jp.png",
+      },
     ],
   };
 

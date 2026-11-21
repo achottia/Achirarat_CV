@@ -12,6 +12,7 @@ const globalData = {
   image: "../files/profile.jpg",
   resume: "../files/resume.pdf",
   resume_de: "../files/CV_Achirarat_de.pdf",
+  resume_jp: "../files/履歴書_Achirarat_Chottianchaiwat.pdf",
   enAddress: "-",
   deAddress: "-",
   jpAddress: "-",
